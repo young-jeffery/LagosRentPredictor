@@ -1,0 +1,268 @@
+=== MAIN DISTRICT DISTRIBUTION ===
+Main_District
+Lekki                 4453
+Unknown               3055
+Ibeju                  669
+Ikeja                  614
+Ikoyi                  585
+Ajah                   547
+Ojodu                  215
+Yaba                   209
+Isolo                  205
+Gbagada                181
+Ikorodu                154
+Agege                  151
+Surulere               121
+Magodo                 117
+Ilashe                  99
+Victoria Island         96
+Ipaja                   85
+Shomolu                 63
+Oshodi                  47
+Ogudu                   44
+Ikotun/Igando           43
+Amuwo-Odofin            42
+Alimosho                38
+Epe                     36
+Maryland                28
+Egbe/Idimu              25
+Ogba                    24
+Ojota                   16
+Apapa                   15
+Kosofe                  12
+Ilupeju                 10
+Badagry                  8
+Orile                    2
+Lagos Island (Eko)       2
+Ejigbo                   2
+Mushin                   1
+Ojo                      1
+
+=== SUB-LOCATION DISTRIBUTION ===
+Official_Sub_Location
+Unknown                        3055
+Lekki Phase 1                  1373
+Ikate                           887
+Chevron                         583
+Ikota                           558
+Badore                          455
+Osapa London                    324
+Ologolo                         264
+Sangotedo                       242
+Ikeja Gra                       193
+Old Ikoyi                       190
+Ago Palace                      176
+Agungi                          148
+Banana Island                   142
+Parkview Estate                 119
+Ifako                           117
+Berger                           90
+Abule Egba                       84
+Adeniyi Jones                    77
+Ilasan                           74
+Alagomeji                        73
+Omole Phase 2                    71
+Abraham Adesanya Estate          69
+Allen Avenue                     67
+Bogije                           63
+Gra Phase 1                      62
+Lekki Phase 2                    61
+Thomas Estate                    58
+Awoyaya                          57
+Pedro                            55
+Akute Ajuwon                     55
+Gra Phase 2 Shangisha            55
+Unity Estate                     54
+Omole Phase 1                    53
+Akoka                            51
+Victoria Island Extension        49
+Phase 2                          48
+Ikate-Elegushi                   45
+Lekki Expressway                 42
+Ogudu Gra                        42
+Opebi                            41
+Vgc / Ajah                       40
+Osborne Foreshore Estate         39
+Soluyi                           39
+Magodo Isheri                    38
+Epe                              36
+Ado / Ajah                       35
+Jakande                          34
+Ogombo                           34
+Mafoluku                         34
+Abijo                            30
+Idado                            30
+Eleko                            29
+Alausa                           29
+Igbogbo                          28
+Ijesha                           28
+Oregun                           27
+Agric                            26
+Millenuim/Ups                    24
+Ikoyi S.W                        24
+Egbeda                           23
+Baruwa                           23
+Lakowe                           23
+Fadeyi                           23
+Bourdillon                       22
+Iyana Ipaja                      21
+Awolowo Road                     21
+Olokonla                         20
+Ayobo                            20
+Egan                             19
+Iwaya                            19
+Adekunle                         19
+Gberigbe                         19
+Apple Junction                   18
+Bucknor                          18
+Abraham Adesanya                 17
+Isheri North                     17
+Satellite Town                   17
+Ogudu Road                       16
+Awolowo Way                      16
+Ebute Metta                      16
+Gerard Road                      15
+College                          14
+Medina                           14
+New Oko Oba                      14
+Lawanson                         14
+Ijegun                           13
+Bode Thomas                      13
+Off Lekki-Epe Expressway         13
+Ipaja Road                       12
+Onipanu                          12
+Palmgroove                       12
+Fola Agoro                       12
+Ajegunle                         12
+Ikorodu Garage                   11
+Shonibare Estate                 11
+Sanusi Fafunwa                   11
+Mende                            11
+Onike                            10
+Lekki Gardens Estate             10
+Canaan Estate                     9
+Toyin Street                      9
+Yakoyo/Alagbole                   9
+Fagba                             9
+Nicon Town                        9
+Bariga / Shomolu                  9
+Peninsula Estate                  8
+Lafiaji                           8
+Ojuelegba                         8
+Kilo                              8
+Oko Afo                           8
+Akin Adesola                      8
+Aiyeteju                          8
+Idimu                             7
+Ajao Estate                       7
+Governors Road                    7
+Ketu-Alapere                      7
+Ilaje / Lekki                     7
+Agboyi/Ketu                       7
+Iju                               6
+2Nd Avenue Extension              6
+Ajayi Road                        6
+Ogba Gra                          6
+Oshodi Expressway                 6
+1004                              6
+Adeola Odeku                      6
+Airport Road / Ikeja              6
+Ahmadu Bello Way                  6
+Igbo-Efon                         6
+Ajiwe                             5
+Festac                            5
+Boys Town                         5
+Mangoro                           5
+Ebute                             5
+Ilupeju Industrial Estate         5
+Eko Atlantic                      5
+Ademola Adetokunbo                5
+Anthony Village                   5
+River Valley Estate               4
+Akowonjo                          4
+Balogun                           4
+Shasha                            4
+Itire                             4
+Makoko                            4
+Agidingbi                         4
+Obafemi Awolowo Way               4
+Masha                             4
+Adelabu                           4
+Shogunle                          4
+Ibeshe / Ikorodu                  4
+Iseri Olofin                      4
+Ligali Ayorinde                   4
+Oba Akran                         3
+Acme Road                         3
+Unity Road                        3
+Alaka Estate                      3
+Obanikoro                         3
+Macpherson                        3
+Alaka/Iponri                      3
+Western Avenue                    3
+Morgan Estate                     3
+Abesan                            3
+Jibowu                            3
+Crown Estate                      3
+Ketu-Ikosi                        3
+Adamo                             3
+Agbara-Igbesan                    3
+Ifako-Ogba                        3
+Mile 12                           2
+Okota                             2
+Cement                            2
+Orile                             2
+Abacha Estate                     2
+Mobolaji Bank Anthony Way         2
+Adeniran Ogunsanya                2
+Akesan                            2
+Iponri                            2
+Coker                             2
+Randle Avenue                     2
+Council                           2
+Green Estate                      2
+Abaranje                          2
+Bye Pass Ilupeju                  2
+Ogudu-Orioke                      2
+Oke-Ira / Ogba                    2
+Meiran                            2
+Lagos Island / Lagos Island       2
+Town Planning Way                 2
+Airport Road / Oshodi             2
+Aguda / Ogba                      2
+Elemoro                           2
+Ibeju-Agbe                        2
+Oworonshoki / Shomolu             2
+Ikotun / Ikotun/Igando            2
+Shomolu / Shomolu                 2
+Jumofak                           2
+Ejigbo / Ejigbo                   2
+Ogba Industrial Estate            1
+Ijora                             1
+Kirikiri                          1
+Osolo Way                         1
+Ilasamaja                         1
+Alaba                             1
+Pen Cinema                        1
+Gbaja                             1
+Falomo                            1
+Mile 2                            1
+Pap                               1
+Dopemu                            1
+Dolphin Estate                    1
+Eric Moore                        1
+Bolade                            1
+Coker Road                        1
+Idi Araba                         1
+Ogunlana                          1
+Olodi Apapa                       1
+Kofo Abayomi                      1
+Oke Ira / Ajah                    1
+Ipaja / Ipaja                     1
+Sabo / Yaba                       1
+Isheri / Egbe Idimu               1
+Tejuosho                          1
+Ijede / Ikorodu                   1
+Ogba Bus-Stop                     1
+Lsdpc Maryland Estate             1
+Ifako-Gbagada                     1

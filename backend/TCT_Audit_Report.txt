@@ -1,0 +1,1599 @@
+=== TCT EXTRACTION AUDIT REPORT ===
+Found 229 properties that mention fees but extracted 0.0.
+Review these to see if our Regex needs to account for weird agent typos.
+
+[Row 33] Base Rent: 8000000.0
+Text Snippet: to let a lovely well finished 4 bedroom duplex with all rooms ensuite, pop finishing, fitted kitchen cabinet, wardrobes etc in a secured and serene neighborhood at maplewood estate oko oba scheme lagos rent: 8m per annum contact home suitor properties -[redacted] ...
+--------------------------------------------------
+[Row 54] Base Rent: 5000000.0
+Text Snippet: *to let* newly built executive spacious 2bedroom upflat all room en-suite with guest n dining section in a well secured gated neighborhood by ifako gbagada lagos* *features* ?? **water heater **pop ceiling ** spot light ** heat extractor ** gas burner **screeded wall **kitchen cabinets **full tiling...
+--------------------------------------------------
+[Row 56] Base Rent: 2500000.0
+Text Snippet: new letting: newly built miniflat and 2brm flat at off akinajo olopa ajuwon with pop finishing, water heart, walldrobe and separate prepaid meter. miniflats is with one toilet 8nos available all upstairs 2brm with 3toilets ground floor. miniflat - 1.5m 2brm - 2.5m a client with verifiable means of l...
+--------------------------------------------------
+[Row 67] Base Rent: 1500000.0
+Text Snippet: new letting: newly built miniflat and 2brm flat at off akinajo olopa ajuwon with pop finishing, water heart, walldrobe and separate prepaid meter. miniflats is with one toilet 8nos available all upstairs 2brm with 3toilets ground floor. miniflat - 1.5m 2brm - 2.5m a client with verifiable means of l...
+--------------------------------------------------
+[Row 84] Base Rent: 5000000.0
+Text Snippet: to let a decent newly built 2 bedroom flat features: all tiles pop kitchen cabinet all room ensuite dining area guest toilet water heater spot light screeded walls fenced gated secured environment location; ifako gbagada lagos rent: 5m per annum ...
+--------------------------------------------------
+[Row 96] Base Rent: 5000000.0
+Text Snippet: ?? direct brief – to let newly built executive and spacious 2bedroom up-flat apartment in a secure gated environment. ?? rent: ?5m per annum (1 year) ?? location: aran orin street, ifako gbagada, lagos (by ifako police station) ?? property features: • 2 spacious bedrooms (all en-suite) • guest toile...
+--------------------------------------------------
+[Row 98] Base Rent: 12000000.0
+Text Snippet: *direct lease* 
+        
+3no’s of studio apartment upflat all tilled with kitchen cabs a well secured gated neighborhood by ifako police station @*aran orin strt ifako gbagada lagos* 
+        *features* 
+         ?? 
+        **water heater 
+        **pop ceiling 
+        **screeded wall 
+        **k...
+--------------------------------------------------
+[Row 101] Base Rent: 1500000.0
+Text Snippet: justout 4rent 
+        a newly built miniflat just a year old in the heart ???? of new oko oba abule egba off shola martins in a closed gated street 
+        price. 1.5m 
+        pop finish 
+        2toilets 
+        no landlord 
+        no discriminations 
+        
+personal prepaid ...
+--------------------------------------------------
+[Row 105] Base Rent: 2000000.0
+Text Snippet: *to let* 
+        
+lovely newly built mini flat in a calm neighborhood at agege pen cinema with easy link to island, ikeja airport, ogba , iju ishaga & oshodi 
+        rent: 2m, 2.3m, 2.5m with service charge inclusive 
+        call home suitor properties -[redacted] ...
+--------------------------------------------------
+[Row 112] Base Rent: 4000000.0
+Text Snippet: *to let* *spacious 2bedroom upstairs @ kayfarm estate obawole ogba lagos state* *description:* * lovely & spacious 2bedroom flat with modern facilities is available for letting *location:* * kayfarm estate, obawole, ogba lagos state *rent:* * ?4million per annum *features:* * modern fittings * full ...
+--------------------------------------------------
+[Row 118] Base Rent: 5500000.0
+Text Snippet: step into a world of exclusivity and modern luxury. this brand-new, master-crafted 3-bedroom terraced duplex is designed for those who value privacy, sharing a serene compound with only 4 other neighbors.
+​imagine coming home to a perfectly interlocked estate, diving into your swimming pool, or unwi...
+--------------------------------------------------
+[Row 131] Base Rent: 30000000.0
+Text Snippet: to let 
+6 bedroom fully detached duplex with a bq
+ 📍 vgc lekki lagos 
+rent:
+agency: 
+legal: 
+caution: 
+service charge:
+max {}...
+--------------------------------------------------
+[Row 141] Base Rent: 30000000.0
+Text Snippet: to let 
+6 bedroom fully detached duplex with a bq
+ 📍 vgc lekki lagos 
+rent:
+agency: 
+legal: 
+caution: 
+service charge:
+max {}...
+--------------------------------------------------
+[Row 146] Base Rent: 14000000.0
+Text Snippet: *to let in chevron*
+*description:* 5 bedroom fully detached duplex with bq in a secured and serene estate 
+*location:* chevron, lekki, lagos. {}...
+--------------------------------------------------
+[Row 187] Base Rent: 10000000.0
+Text Snippet: newly built 6nos of 4bedroom semi detached house with a room bq @ lekki scheme 2, along ogombo road ajah lagos. {}...
+--------------------------------------------------
+[Row 195] Base Rent: 5000000.0
+Text Snippet: this flat apartment is very beautiful and located in a beautiful and secured estate of lakki scheme 2 with all the necessary amenities with proximity to good neighborhood ...
+--------------------------------------------------
+[Row 198] Base Rent: 3500000.0
+Text Snippet: 4 bedroom terrace unit 
+        
+feature 
+        - gated estate 
+        - serene developing estate 
+        - budget friendly 
+        - spacious living space 
+        - 3 units. only middle unit available 
+        - spacious compound 
+        - opened kitchen. can be closed up 
+        - self ser...
+--------------------------------------------------
+[Row 227] Base Rent: 4500000.0
+Text Snippet: luxury all rooms en-suite 3 bedroom in a well secured gated security conscious estate with top notch facilities in place such as good road network, 24hours security, stable power supply, cct surveillance cameras, street lights, recreational center, efficient drainage system,proper landscape and so o...
+--------------------------------------------------
+[Row 236] Base Rent: 400000.0
+Text Snippet: available for monthly & weekly rent
+ harris drive
+rent - 400k monthly/ 140k weekly
+no extra fee
+no light bills
+no service charge
+no dues
+large swimming pool 
+free starlink wifi
+constant electricity 
+free room cleaning once every week
+code access estate
+furnished living room
+2 in a room (max) {}...
+--------------------------------------------------
+[Row 253] Base Rent: 5500000.0
+Text Snippet: step into a world of exclusivity and modern luxury. this brand-new, master-crafted 3-bedroom terraced duplex is designed for those who value privacy, sharing a serene compound with only 4 other neighbors.
+​imagine coming home to a perfectly interlocked estate, diving into your swimming pool, or unwi...
+--------------------------------------------------
+[Row 255] Base Rent: 3000000.0
+Text Snippet: this is a newly built 2 bedroom apartment for rent in ogombo renting for 3 million other charges 10% each total package 3.9 million ...
+--------------------------------------------------
+[Row 271] Base Rent: 10000000.0
+Text Snippet: newly built 6nos of 4bedroom semi detached house with a room bq @ lekki scheme 2, along ogombo road ajah lagos. {}...
+--------------------------------------------------
+[Row 346] Base Rent: 18000000.0
+Text Snippet: a fully detached brand new 5bedroom duplex for rent spacious kitchen en suite rooms boys quarter parking space for close to 8 cars in the prestigious royal garden estate ,ajah rent -18m other fees -10% per annum contact for more pictures ...
+--------------------------------------------------
+[Row 403] Base Rent: 7000000.0
+Text Snippet: letting!!! 
+        brand new serviced 4 bedroom terrace duplex 
+        
+?? location: apple estate, amuwo-odofin, lagos. 
+        
+ rent: n7,000,000 per annum 
+        
+*service charge: applies* ...
+--------------------------------------------------
+[Row 407] Base Rent: 3000000.0
+Text Snippet: 2 bedroom apartment nasco estate satellite town {}...
+--------------------------------------------------
+[Row 409] Base Rent: 1400000.0
+Text Snippet: mini flat a room and palour at satellite town nasco estate downstairs rent {}...
+--------------------------------------------------
+[Row 410] Base Rent: 1500000.0
+Text Snippet: a mini flat apartment that consists of 1 bedroom, a sitting room, a kitchen and a bathroom with toilet. at nasco new site rent 1,500,000 {}...
+--------------------------------------------------
+[Row 412] Base Rent: 2500000.0
+Text Snippet: 2 bedroom apartment newly built at nasco estate new site good road, clean water, light, rent upstairs 3m
+downstairs 2.5m {}...
+--------------------------------------------------
+[Row 419] Base Rent: 2500000.0
+Text Snippet: 2 bedroom apartment newly built at nasco estate new site good road, clean water, light, rent upstairs 3m
+downstairs 2.5m {}...
+--------------------------------------------------
+[Row 426] Base Rent: 7000000.0
+Text Snippet: *direct brief* 
+        *letting @amuwo-odofin* 
+        fully serviced 4-bedroom terrace duplex (2 units available) 
+        
+rent : n7m per annum 
+        
+location: apple estate , amuwo-odofin , lagos 
+        
+*service charge applies* olugbenga ...
+--------------------------------------------------
+[Row 433] Base Rent: 1400000.0
+Text Snippet: mini flat a room and palour at satellite town nasco estate downstairs rent {}...
+--------------------------------------------------
+[Row 435] Base Rent: 1500000.0
+Text Snippet: a mini flat apartment that consists of 1 bedroom, a sitting room, a kitchen and a bathroom with toilet. at nasco new site rent 1,500,000 {}...
+--------------------------------------------------
+[Row 442] Base Rent: 3000000.0
+Text Snippet: description:
+> clean and spacious newly built 2-bedroom flat available for rent in a secured and well-organized environment at nasco estate, satellite town.
+ modern finishing
+ well-ventilated rooms
+ good road access
+ secured estate environment
+ suitable for families and working-class tenants
+ locati...
+--------------------------------------------------
+[Row 443] Base Rent: 3000000.0
+Text Snippet: 2 bedroom apartment nasco estate satellite town {}...
+--------------------------------------------------
+[Row 481] Base Rent: 3000000.0
+Text Snippet: just out to let: 
+        
+block of 4 newly built 2bedroom flat with pop finishing and water heater all rooms ensuite at off haruna college road ogba lagos. 
+        
+3m per annum 
+        
+no tribe discrimination. ...
+--------------------------------------------------
+[Row 495] Base Rent: 8000000.0
+Text Snippet: house for rent 
+        newly built 4 bedroom semi-detached duplex available in a serene and secure environment. 
+        
+location: atlantic nominee estate ajah before lagos business school 
+        
+features: 
+        ? spacious living area 
+        ? all rooms en-suite 
+        ? bq 
+        ? ga...
+--------------------------------------------------
+[Row 497] Base Rent: 300000.0
+Text Snippet: a very massive, descent and standard room and parlor self contain for rent at odogbonle beside 3ds hotel epe {}...
+--------------------------------------------------
+[Row 504] Base Rent: 200000.0
+Text Snippet: a very massive, descent and standard room self, pay and pack in {}...
+--------------------------------------------------
+[Row 524] Base Rent: 300000.0
+Text Snippet: a very massive, descent and standard room and parlor self contain for rent at odogbonle beside 3ds hotel epe {}...
+--------------------------------------------------
+[Row 544] Base Rent: 4500000.0
+Text Snippet: ?? direct brief – to lease a 2 units of nicely built and spacious 2 bedroom apartments, upstairs, featuring all rooms en-suite, guest toilet, balcony, pop ceiling, screeded walls, car park, italian doors, and other modern fittings. located in a secure and well-accessible environment. ?? price: ?33,0...
+--------------------------------------------------
+[Row 551] Base Rent: 3000000.0
+Text Snippet: ?? direct brief – to let a decently used mini flat, ground floor unit with fitted kitchen cabinet, located in a serene and secure environment with just 3 tenants in the compound. ideal for individuals or young couples seeking privacy and comfort. ?? rent: ?3,000,000 per annum ?? caution: tbd ?? serv...
+--------------------------------------------------
+[Row 558] Base Rent: 2700000.0
+Text Snippet: to let a decent lovely mini flat features: all tiles pop kitchen cabinet spacious screeded walls 2 toilets upstairs prepaid meter car park secured environment location: sholuyi gbagada lagos rent: 2.7m per annum. afez ...
+--------------------------------------------------
+[Row 581] Base Rent: 7000000.0
+Text Snippet: ?? direct brief – to let a standard upstairs 3-bedroom flat, all rooms en-suite, in a quiet and secure compound with just 2 tenants. ideal for young couples or working-class singles seeking comfort and privacy. ?? rent: ?7,000,000 per annum (2 years required) ?? caution: tbd ?? service charge: tbd ?...
+--------------------------------------------------
+[Row 608] Base Rent: 6000000.0
+Text Snippet: *for rent* 4 bedroom detached duplex with bq available for rent location: wealthland green estates at oribanwa phase 2 *description:* finished 4 bedroom detached duplex house plus bq fitted with inverter for 24 hours power. *rent*: n6million ...
+--------------------------------------------------
+[Row 637] Base Rent: 3000000.0
+Text Snippet: a tasteful finished, standard, very decent and spacious newly built miniflat upstairs & ground-floor with 2 toilets & bath, pop, screeded walls, kitchen cabinets, band a light, balcony, close proximity, prepaid meter, car park,, secure environment. 
+        
+location: sholuyi community, gbagada. lag...
+--------------------------------------------------
+[Row 675] Base Rent: 8000000.0
+Text Snippet: *to let* 
+        
+newly built n nicely finished 3 bedroom up flat n 2 bedroom up flat and 1 bedroom ground flat all room ensuite with guest toilet all tilled with kitchen cabs, wardrobe, water heater n band a light @ sholuyi gbagada 
+        *3 bed 8m* 
+        *2 bed 6m* 
+        *1 bed 4m* 
+     ...
+--------------------------------------------------
+[Row 701] Base Rent: 9000000.0
+Text Snippet: ?? direct brief – to lease a unit of a nicely built and spacious room self contain, upstairs, featuring balcony, pop ceiling, screeded walls, car park, italian doors, and other modern fittings. located in a secure and accessible environment. ?? price: ?9,000,000 (17-year lease) ?? roi: ?1.3m per ann...
+--------------------------------------------------
+[Row 770] Base Rent: 2000000.0
+Text Snippet: 12 unit of newly built 2 bedroom flat for rent all together in igbojia shapati ibeju-lekki opposite beachwood estate ibeju-lekki 
+rent 
+agency 
+agreement 
+service charge 
+caution fe
+please note: 
+preferred client corporate organization that needs the property for their staff a d want the whole build...
+--------------------------------------------------
+[Row 771] Base Rent: 2500000.0
+Text Snippet: a brandnew, massive, descent and uniquely built 2bedrooms flat, just a plot to the express, pay and pack in at bogije bus stop, bogije, ibeju lekki lagos {}...
+--------------------------------------------------
+[Row 773] Base Rent: 2000000.0
+Text Snippet: 2bedroom apartment at ekoakete estate, with quick proximity to coastal road, and different access route to abijo gra and green spring school.
+fenced and gated property with parking space and security {}...
+--------------------------------------------------
+[Row 795] Base Rent: 5000000.0
+Text Snippet: standard 5 bedrooms bungalows at eleko ibeju lekki close to dangote refinery ibeju lekki international airport also pan african university very good location close to road very secure estate the new tenant will been having discussions with of for a/ac conditions system there is 24hr solar also napa ...
+--------------------------------------------------
+[Row 820] Base Rent: 3500000.0
+Text Snippet: a very standard, massive and descent 2bedrooms duplex at beachwood coastal estate, call to enter estate, pay and pack in at malete ibeju lekki lagos {}...
+--------------------------------------------------
+[Row 833] Base Rent: 4000000.0
+Text Snippet: 3 bedroom terrace duplex with bq available for rent. details:- rent________#4,000,000 agreement__#400,000 caution_____#750,000 agency_____#800,000 estate due__#440,100 total package #6,390,100 ...
+--------------------------------------------------
+[Row 867] Base Rent: 5000000.0
+Text Snippet: standard 5 bedrooms bungalows at eleko ibeju lekki close to dangote refinery ibeju lekki international airport also pan african university very good location close to road very secure estate the new tenant will been having discussions with of for a/ac conditions system there is 24hr solar also napa ...
+--------------------------------------------------
+[Row 895] Base Rent: 1000000.0
+Text Snippet: a standard roomself contain apartment in lakowe school gate ibeju lekki axis of lagos. 
+        
+rent:- #1m 
+        total package:- #1.5million 
+        
+*note:- strictly working class lady preferred ??????* 
+        
+ues ...
+--------------------------------------------------
+[Row 907] Base Rent: 800000.0
+Text Snippet: a very nice and descent roomself, very close to the express (upstairs), pay and pack in, single person only {}...
+--------------------------------------------------
+[Row 912] Base Rent: 6000000.0
+Text Snippet: to let 
+        
+description: brand new 2 bedroom duplex in a fully serviced estate with 24hours light. 
+        
+location: sapphire garden estate, awoyaya 
+        
+rent: 6million ...
+--------------------------------------------------
+[Row 920] Base Rent: 590000000.0
+Text Snippet: *for sale* 
+        direct closeable deal 
+        -------------------------------------- 
+        a well-maintained *7- bedroom duplex with 2-bedroom* detached bungalow bq. 
+        -------------------------------------- 
+        location: amen estate phase i, ibeju-lekki lagos. 
+        ----------...
+--------------------------------------------------
+[Row 944] Base Rent: 2500000.0
+Text Snippet: a brandnew, massive, descent and uniquely built 2bedrooms flat, just a plot to the express, pay and pack in at bogije bus stop, bogije, ibeju lekki lagos {}...
+--------------------------------------------------
+[Row 945] Base Rent: 2000000.0
+Text Snippet: 12 unit of newly built 2 bedroom flat for rent all together in igbojia shapati ibeju-lekki opposite beachwood estate ibeju-lekki 
+rent 
+agency 
+agreement 
+service charge 
+caution fe
+please note: 
+preferred client corporate organization that needs the property for their staff a d want the whole build...
+--------------------------------------------------
+[Row 979] Base Rent: 20000000.0
+Text Snippet: fresh brief for rent 
+spacious and tastefully finished 5brm detached duplex with 1room bq on 3 floors with ample parking space 
+*location off omofade crescent, omole phase 1.*
+ *rent: 20m, 1yr rent.* 
+ *picture available* {}...
+--------------------------------------------------
+[Row 990] Base Rent: 3000000.0
+Text Snippet: to let – well renovated 2 bedroom apartment a well-maintained and spacious 2-bedroom apartment, all rooms en-suite, located off grammar school. features: all rooms en-suite spacious living area big, well-fitted kitchen good road access (not far from the main road) located in a serene and secure envi...
+--------------------------------------------------
+[Row 1008] Base Rent: 20000000.0
+Text Snippet: available to let 
+massive and well finished 4br bungalow with all rooms ensuite, guest toilet, 4rooms bq, ample parking space, lovely landscape etc for office use
+.
+location - adeniyi jones ikeja
+rent- 20m p a asking {}...
+--------------------------------------------------
+[Row 1016] Base Rent: 20000000.0
+Text Snippet: just out to let office space 
+        
+massive and well finished 4br bungalow with all rooms ensuite, guest toilet, 4rooms bq, ample parking space, lovely landscape etc for office use 
+        . 
+        location - adeniyi jones ikeja 
+        
+rent- 20m p a asking ...
+--------------------------------------------------
+[Row 1019] Base Rent: 35000000.0
+Text Snippet: this beautiful 4 bedroom detached duplex is available on oduduwa way, g.r.a, ikeja walkable distance from cubana & la mango.
+agreement, agency & caution to be negotiated upon interest {}...
+--------------------------------------------------
+[Row 1029] Base Rent: 40000000.0
+Text Snippet: for rent!! 
+        
+
+
+
+
+
+parlty furnished & serviced 3beds.. 
+        
+
+location:ikeja gra lagos.. 
+        
+
+
+
+price:40million(per annum).. 
+        
+
+
+
+(a year rent required).. 
+        
+
+
+
+kindly note(project still under construction,abt 70% completed,detailed video available on request).. ...
+--------------------------------------------------
+[Row 1032] Base Rent: 25000000.0
+Text Snippet: for lease – commercial property 
+        a stand-alone commercial duplex available for lease, suitable for office use, corporate organisations, schools, clinics, or other commercial purposes. 
+        ?? location: along ogunusi road, omole phase 1 
+        ?? rent: ?25,000,000 per annum (asking) 
+  ...
+--------------------------------------------------
+[Row 1039] Base Rent: 15000000.0
+Text Snippet: description spacious partly funished 4unit of 4bedroom semi detached duplex with bq. all the rooms are en-suite with guest toilet ?? responsible chinese with good job is allowed on this property take note 2unit is vacant right now. idear for residential use or quite home office can be considered. ba...
+--------------------------------------------------
+[Row 1047] Base Rent: 15000000.0
+Text Snippet: property to let inside an estate in off allen avenue ikeja. description 4bedrooms terrace with all rooms en-suite, box room, visitor’s toilet, kitchen with pantry, bq, 3 living rooms and car garage 
+diesel charge: to be discussed
+rent: 15m per annual 
+rent: 20m per annum (bigger)
+ref: engr malcom wa...
+--------------------------------------------------
+[Row 1064] Base Rent: 20000000.0
+Text Snippet: fresh brief for rent 
+spacious and tastefully finished 5brm detached duplex with 1room bq on 3 floors with ample parking space 
+*location off omofade crescent, omole phase 1.*
+ *rent: 20m, 1yr rent.* 
+ *picture available* {}...
+--------------------------------------------------
+[Row 1066] Base Rent: 16000000.0
+Text Snippet: property to let inside an estate in off adeniyi jones avenue ikeja. description 2unit of well improved 4bedroom duplex 
+with 2room bq. only 1unit available within a lovely and serene environment. pls take note of these chinese is not acceptable streetly for residential popuse. rent 16m per annum {}...
+--------------------------------------------------
+[Row 1077] Base Rent: 700000000.0
+Text Snippet: for sale 
+        (direct instruction) 
+        ------------------------------------- 
+        luxury designed *5-bedroom* detached smart house with topnotch finishing. 
+        ------------------------------------- 
+        location: omole phase i, ikeja lagos. 
+        ----------------------------...
+--------------------------------------------------
+[Row 1086] Base Rent: 40000000.0
+Text Snippet: to let in ikeja gra 
+        
+4 bedroom service apartment with bq 
+        
+description 
+        spacious and well-finished 4-bedroom detached house with a boys' quarters (bq) available for rent in a serene and secure mini estate located in ikeja gra. this beautiful home offers generous living space...
+--------------------------------------------------
+[Row 1101] Base Rent: 30000000.0
+Text Snippet: property to let inside an estate in off adeniyi jones avenue ikeja lagos. description 
+        newly built and well-furnished 4-bedroom semi-detached duplex with 2bedroom flat furnished as bq. with store and security guard room 
+        rent:30m +2yrs rent/ or 30m 1and half yrs rent/ or at worst 30m...
+--------------------------------------------------
+[Row 1154] Base Rent: 35000000.0
+Text Snippet: for rent -- ?35 million 
+        
+this well-designed 4-bedroom semi-detached duplex offers comfortable and modern living. the home features spacious en-suite bedrooms, a study, and a room bq, making it suitable for both family living and upscale residence. 
+        
+key features: 
+        
+4 spaciou...
+--------------------------------------------------
+[Row 1190] Base Rent: 5000000.0
+Text Snippet: description newly renovated 2bedroom flat all the rooms are en-suite with guest toilet ?? with self prepared metter ground floor. 
+        
+location:adeniyi jones ikeja 
+        
+ *rent : 5m* ...
+--------------------------------------------------
+[Row 1200] Base Rent: 17000000.0
+Text Snippet: location: off allen avenue, ikeja-lagos.
+serviced brand new 4 bedroom ensuite terrace duplex + 1 room bq which benefits 3 living room, fitted kitchen, dedicated service generator within a serviced estate.
+price:17 million naira per annum
+service charge: {}...
+--------------------------------------------------
+[Row 1212] Base Rent: 800000.0
+Text Snippet: pop 2 bedrooms flat ensuites for rent available at imota ikorodu 
+lagos state 
+fenced floored and gated 
+well ventilated 
+calling / whatsapp 
+a land/town worth residing on! 
+imota-ikorodu, it's a topographic landscape, a sightseeing both day and night, very beautiful town with government investments...
+--------------------------------------------------
+[Row 1224] Base Rent: 960000.0
+Text Snippet: full address: 
+23, ola-inu alade street, near hosannah avenue, grammar school, ota-ona, ikorodu, lagos.
+please note that a refundable security deposit (rsd) equal to 50% of the annual rent is required in addition to the annual rent fee. {}...
+--------------------------------------------------
+[Row 1229] Base Rent: 1600000.0
+Text Snippet: to let
+executive mini flat 
+in this compound, there is cute mini flats available for letting.
+location: agric ikorodu lagos 
+service charge is 200k annually
+rent: 1.6m per annum 
+2.4m total package. 
+including service charge 
+facilities 
+tv console 
+water heater 
+chandelier 
+imported tiles 
+personal...
+--------------------------------------------------
+[Row 1237] Base Rent: 800000.0
+Text Snippet: pop 2 bedrooms flat ensuites for rent available at imota ikorodu 
+lagos state 
+fenced floored and gated 
+well ventilated 
+calling / whatsapp 
+a land/town worth residing on! 
+imota-ikorodu, it's a topographic landscape, a sightseeing both day and night, very beautiful town with government investments...
+--------------------------------------------------
+[Row 1239] Base Rent: 1000000.0
+Text Snippet: this house is just 15 minutes drive from ojodu berger and a grammar school. built to modern taste and affordable price. yoruba clients only {}...
+--------------------------------------------------
+[Row 1241] Base Rent: 1000000.0
+Text Snippet: 2-bedroom en-suite apartment for rent in cele bus stop (3 minutes to itamaga)
+location: cele bus stop, ikorodu
+description
+well-maintained 2-bedroom en-suite apartment located in a quiet and accessible area at cele bus stop, just 3 minutes’ drive to itamaga. the property offers convenience, comfort,...
+--------------------------------------------------
+[Row 1252] Base Rent: 800000.0
+Text Snippet: standard mini flat apartment
+rent:
+	•	₦800,000
+refundable caution fee:
+	•	₦150,000
+service charge:
+	•	₦240,000 (one year)
+option to pay 6 months upfront: ₦120,000
+service charge covers general estate cleaning, internal and external securities, and waste disposal,pumping of water steady with or witho...
+--------------------------------------------------
+[Row 1262] Base Rent: 800000.0
+Text Snippet: pop 2 bedrooms flat ensuites for rent available at imota ikorodu 
+lagos state 
+fenced floored and gated 
+well ventilated 
+calling / whatsapp 
+a land/town worth residing on! 
+imota-ikorodu, it's a topographic landscape, a sightseeing both day and night, very beautiful town with government investments...
+--------------------------------------------------
+[Row 1263] Base Rent: 600000.0
+Text Snippet: mini flat 
+rent:
+	•	₦600,000
+refundable caution fee:
+	•	₦100,000
+service charge:
+	•	₦240,000 (one year)
+option to pay 6 months upfront: ₦120,000
+service charge covers general estate cleaning, internal and external securities, and waste disposal,pumping of water steady with or without nepa light 
+age...
+--------------------------------------------------
+[Row 1265] Base Rent: 960000.0
+Text Snippet: full address: 
+23, ola-inu alade street, near hosannah avenue, grammar school, ota-ona, ikorodu, lagos.
+please note that a refundable security deposit (rsd) equal to 50% of the annual rent is required in addition to the annual rent fee. {}...
+--------------------------------------------------
+[Row 1283] Base Rent: 800000.0
+Text Snippet: pop 2 bedrooms flat ensuites for rent available at imota ikorodu 
+lagos state 
+fenced floored and gated 
+well ventilated 
+calling / whatsapp 
+a land/town worth residing on! 
+imota-ikorodu, it's a topographic landscape, a sightseeing both day and night, very beautiful town with government investments...
+--------------------------------------------------
+[Row 1300] Base Rent: 960000.0
+Text Snippet: full address: 
+23, ola-inu alade street, near hosannah avenue, grammar school, ota-ona, ikorodu, lagos.
+please note that a refundable security deposit (rsd) equal to 50% of the annual rent is required in addition to the annual rent fee. {}...
+--------------------------------------------------
+[Row 1339] Base Rent: 960000.0
+Text Snippet: full address: 
+23, ola-inu alade street, near hosannah avenue, grammar school, ota-ona, ikorodu, lagos.
+please note that a refundable security deposit (rsd) equal to 50% of the annual rent is required in addition to the annual rent fee. {}...
+--------------------------------------------------
+[Row 1341] Base Rent: 1000000.0
+Text Snippet: this house is just 15 minutes drive from ojodu berger and a grammar school. built to modern taste and affordable price. yoruba clients only {}...
+--------------------------------------------------
+[Row 1345] Base Rent: 960000.0
+Text Snippet: full address: 
+23, ola-inu alade street, near hosannah avenue, grammar school, ota-ona, ikorodu, lagos.
+please note that a refundable security deposit (rsd) equal to 50% of the annual rent is required in addition to the annual rent fee. {}...
+--------------------------------------------------
+[Row 1348] Base Rent: 960000.0
+Text Snippet: full address: 
+23, ola-inu alade street, near hosannah avenue, grammar school, ota-ona, ikorodu, lagos.
+please note that a refundable security deposit (rsd) equal to 50% of the annual rent is required in addition to the annual rent fee. {}...
+--------------------------------------------------
+[Row 1352] Base Rent: 800000.0
+Text Snippet: pop 2 bedrooms flat ensuites for rent available at imota ikorodu 
+lagos state 
+fenced floored and gated 
+well ventilated 
+calling / whatsapp 
+a land/town worth residing on! 
+imota-ikorodu, it's a topographic landscape, a sightseeing both day and night, very beautiful town with government investments...
+--------------------------------------------------
+[Row 1353] Base Rent: 1000000.0
+Text Snippet: a newly built 2bedroom flat opposite bright star estate, igbalu road, igbalu-gberigbe.
+details:
+agreement#
+commission#
+caution#
+per annum #
+total package# {}...
+--------------------------------------------------
+[Row 1355] Base Rent: 15000000.0
+Text Snippet: for lease!! 
+        
+a big warehouse at olu-odo, ikorodu. 
+         (facing the major road) 
+        
+it has a large parking space that can accommodate 10 trucks of trailers and multiple cars space. 
+        
+suitable for : 
+        
+supermarket 
+        schools 
+        churches 
+        event hal...
+--------------------------------------------------
+[Row 1358] Base Rent: 6000000.0
+Text Snippet: a newly built 6bedroom semi-furnished duplex at corban street, gbaga ikorodu lagos.
+price:
+per annum #.00
+agreement
+commission
+facilities:
+spacious living with guest toilet.
+1guest room ensuite.
+1maiden room ensuite.
+two modern kitchen with store.
+family lounge.
+master's bedroom ensuite +wardrobe.
+3...
+--------------------------------------------------
+[Row 1364] Base Rent: 1000000.0
+Text Snippet: a newly built 2bedroom flat opposite bright star estate, igbalu road, igbalu-gberigbe.
+details:
+agreement#
+commission#
+caution#
+per annum #
+total package# {}...
+--------------------------------------------------
+[Row 1385] Base Rent: 900000.0
+Text Snippet: to let miniflat at rainbow bus stop, ijagemo along ijegun axis 2 toilets 900k rent no discrimination no landlord pay & move in ...
+--------------------------------------------------
+[Row 1390] Base Rent: 10000000.0
+Text Snippet: 2 bedroom shortlet service apartment for annual rent . comes with personal stair case . comes with 1 year 5g free internet wifi , comes with 24 hours light no service charge whatsoever . comes with 3 bathroom , comes with smart tv . comes with personal security . white house giving lekki standard lo...
+--------------------------------------------------
+[Row 1396] Base Rent: 5500000.0
+Text Snippet: for rent: well located & spacious 3 bedroom apartment at eleganza garden opposite vgc, lekki-lagos. 
+        
+features: 
+        - excellent location: opposite vgc 
+        - all rooms en suite with guest's toilet in the sitting room 
+        - spacious bedrooms 
+        - well fitted kitchen 
+     ...
+--------------------------------------------------
+[Row 1405] Base Rent: 6000000.0
+Text Snippet: cozy new and neat 1 bed room service apartment with 24 hours light and ac on 24 hours without need to turn it off. comes with smart tv and 2 toilets . tv in both bathroom and parlor with a giant glass at the passage with nice kitchen and chandelier in the parlor . has nice compound with good securit...
+--------------------------------------------------
+[Row 1409] Base Rent: 40000000.0
+Text Snippet: *for lease| banana island estate ikoyi lagos.*
+*2 bedroom apartments* _with bq, pool, gym,24hrs power, 24hr security personnel, 24hr fm on site a waterfront property so much more_
+* 2 bedrooms on 2nd floor *ngn40milion per annum2 yrs payable upfront (with boxes quarter 
+- 2 bedrooms on ground floor ...
+--------------------------------------------------
+[Row 1411] Base Rent: 1750000000.0
+Text Snippet: brook galene is an exclusive luxury development designed for elegance, comfort, and convenience. this is a fully detached duplex each with a 2-room bq, crafted to the highest modern living standards. 
+        
+?? key features 
+         • spacious living rooms on every floor 
+         • all rooms en-...
+--------------------------------------------------
+[Row 1413] Base Rent: 35000000.0
+Text Snippet: premium 2 bedroom luxury apartment in a well-planned and fully serviced residential court of eight (8) apartments located within old ikoyi, ikoyi, lagos. accommodation details: ground floor apartment – ample living area; spacious dining area; guest toilet; spacious kitchen; pantry; 1st bedroom (ensu...
+--------------------------------------------------
+[Row 1414] Base Rent: 80000000.0
+Text Snippet: *semi brief for lease* 
+description: 5 bedroom terrace apartment – banana island, ikoyi
+a well-finished 5-bedroom terrace apartment in one of lagos’s most exclusive and secure neighborhoods. designed for convenient luxury living, this home offers premium facilities and the refined lifestyle banana i...
+--------------------------------------------------
+[Row 1429] Base Rent: 70000000.0
+Text Snippet: cw07694 
+        
+3-bedroom furnished apartment – old ikoyi 
+         location: old ikoyi 
+        
+property overview 
+        
+an exclusive luxury 3-bedroom fully furnished apartment located in the heart of old ikoyi, offering premium comfort, top-tier amenities, and a hassle-free living experience...
+--------------------------------------------------
+[Row 1432] Base Rent: 15000000.0
+Text Snippet: well built 2 bedroom flat in a serene environment for rent.
+osborn phase 2 
+amenities:
+- spacious 
+- ⁠clean water
+- all rooms ensuite
+- balcony 
+- 24/7 security 
+- great environment 
+- fully fitted kitchen
+- ample car parking space 
+rent : 15m 
+lca- 10% each {}...
+--------------------------------------------------
+[Row 1441] Base Rent: 30000000.0
+Text Snippet: fully serviced 3 bedroom apartment in a residential court of thirty-two (32) apartments located within parkview estate, ikoyi, lagos. 
+        
+
+accommodation details: 
+        first floor apartment – spacious living and dining area; guest toilet; kitchen; pantry; 1st bedroom (ensuite); 2nd bedroom ...
+--------------------------------------------------
+[Row 1454] Base Rent: 55000000.0
+Text Snippet: banana island
+3 bedroom furnished flat with 1 bq
+rent
+service charge 
+legal 
+agency 
+caution {}...
+--------------------------------------------------
+[Row 1462] Base Rent: 47200000.0
+Text Snippet: upscale, luxury 2 bedroom apartment in a well-planned and fully serviced private residential court located within old ikoyi, ikoyi, lagos. 
+        
+
+features include: 
+        generous sitting area; generous sit-out balcony with great view; ample green area; acs in all rooms and kitchen; fully fitt...
+--------------------------------------------------
+[Row 1463] Base Rent: 1650000000.0
+Text Snippet: brook galene is an exclusive luxury development designed for elegance, comfort, and convenience. this is a fully detached duplex each with 1 kitchen and a 2-room bq, crafted to the highest modern living standards. 
+        
+?? key features 
+         • spacious living rooms on every floor 
+         •...
+--------------------------------------------------
+[Row 1473] Base Rent: 47000000.0
+Text Snippet: *to let
+*property for rent in banana island estate*
+a well secured & fully serviced 4 bedroom penthouse all ensuite with a study room and 2 rooms boxes quarter 
+the property comes with acs, gas burners, microwave, oven, fridge, dish washer, washing machine etc. 
+the property also has a lagoon water ...
+--------------------------------------------------
+[Row 1493] Base Rent: 250000000.0
+Text Snippet: *corporates properties for lease in ikoyi* 
+        
+
+good deals 
+        
+1. brand new 9no 2bedroom apartment, 4no 1bedroom apartment 4no studio apartment @ *parkview estate* 250m 
+        
+2. 5bedroom detached house with 2rooms bq @ *abacha estate ikoyi* 50m (min 3yrs upfront payment) 
+        
+3....
+--------------------------------------------------
+[Row 1515] Base Rent: 20000000.0
+Text Snippet: spacious 3 bedroom apartment in a well-planned and fully serviced residential court of thirty (30) residents located within parkview estate, ikoyi, lagos. 
+        
+
+accommodation details: 
+        pent-floor (third floor) – ample living/dining area; guest toilet; kitchen; 1st bedroom (ensuite); 2nd...
+--------------------------------------------------
+[Row 1518] Base Rent: 60000000.0
+Text Snippet: ‎*semi direct brief* 
+‎
+‎ *property description:* a nicely fully furnished waterfront 4-bedroom semi detached with bq and penthouse within a very secured neighborhood in ikoyi
+‎
+‎*location:* osborne phase one, ikoyi, lagos
+‎
+‎features: 
+‎•  4 bedrooms (all en suite)
+‎•  spacious sitting room
+‎•  din...
+--------------------------------------------------
+[Row 1528] Base Rent: 15000000.0
+Text Snippet: well built 2 bedroom flat in a serene environment for rent.
+osborn phase 2 
+amenities:
+- spacious 
+- ⁠clean water
+- all rooms ensuite
+- balcony 
+- 24/7 security 
+- great environment 
+- fully fitted kitchen
+- ample car parking space 
+rent : 15m 
+lca- 10% each {}...
+--------------------------------------------------
+[Row 1530] Base Rent: 1850000000.0
+Text Snippet: brook galene is an exclusive luxury development designed for elegance, comfort, and convenience. this is a fully detached 5 bedroom duplex each with 1 kitchen, a studying room and a 2-room bq, crafted to the highest modern living standards. 
+        
+ key features 
+         • spacious living rooms o...
+--------------------------------------------------
+[Row 1543] Base Rent: 45000000.0
+Text Snippet: tastefully fully furnished 3 bedroom apartment for rent?? 
+        
+?? location: off second avenue ikoyi, lagos ???? 
+        ?? rent: ?45,000,000 per annum 
+        service charge: to be determined 
+        
+features 
+         • 24 hours security 
+         • hybrid solar inverter system 
+         •...
+--------------------------------------------------
+[Row 1545] Base Rent: 100000000.0
+Text Snippet: massive semi-detached house with spacious grounds suitable for office use located at old ikoyi, lagos. 
+        
+
+features include: 
+        ample grounds measuring 1118sqm; carpark for 20 cars; separate guest house building also suitable for annex office building; gate house; low traffic-prone rout...
+--------------------------------------------------
+[Row 1579] Base Rent: 40000000.0
+Text Snippet: *to let : 4-bedroom terrace with bq*, 
+features: gate house, 33 kva generator set, acs, cctv, pabx & dstv... 
+client pays estate fee at the estate office,
+off banana island road, ikoyi
+rent: 
+caution:
+legal: 
+agency: .
+water supply per annum 
+ korede {}...
+--------------------------------------------------
+[Row 1581] Base Rent: 100000000.0
+Text Snippet: premium 4 bedroom luxury pent-floor apartment in a well-planned and fully serviced residential court located within old ikoyi, ikoyi, lagos. 
+        
+
+accommodation details: 
+        pent-floor apartment – opulent living area; spacious dining area; guest toilet; kitchen; pantry; laundry area; 1st b...
+--------------------------------------------------
+[Row 1584] Base Rent: 25000000.0
+Text Snippet: 4 bedroom terrace duplex with bq with two sitting rooms 
+location osborne 
+rent -25m 
+other fees -10% {}...
+--------------------------------------------------
+[Row 1585] Base Rent: 108000000.0
+Text Snippet: *for lease (corporate occupants only)*
+description: a premium block of 6 units of 3-bedroom apartments, each complemented with a dedicated 1-bedroom serviced quarters, 
+perfectly suited for corporate tenants seeking exclusivity, comfort, and convenience in a serene environment.
+property details: 
+si...
+--------------------------------------------------
+[Row 1589] Base Rent: 60000000.0
+Text Snippet: joseph06-for rent | serviced 4 bedroom terrace + bq | old ikoyi
+location: off bourdillon road, old ikoyi, lagos
+rent:   per annum
+service charge:  
+diesel deposit:   
+agency:  
+legal: 
+caution deposit:  
+features:
+• tastefully finished 4 bedroom terrace with bq
+• all rooms en-suite
+• swimming pool
+•...
+--------------------------------------------------
+[Row 1627] Base Rent: 50000000.0
+Text Snippet: *available 
+location banana island ikoyi
+*3bedroom apartment*
+rent: 
+service charge deposit: (diesel inclusive) 
+legal fee: 
+caution fee: 
+agency fee: {}...
+--------------------------------------------------
+[Row 1676] Base Rent: 700000.0
+Text Snippet: to let. (a link). 
+        
+
+
+
+portable newly built mini flat for everyone@700k yearly @ its peak value!!!!! 
+        
+
+
+discover this beautiful mini flat for dedicated young couple or responsible guys in a befitting home of choice with accessibility and proximity in a well deserved environment. 
+  ...
+--------------------------------------------------
+[Row 1679] Base Rent: 1500000.0
+Text Snippet: a sweet and lovely newly built mini flat in a serene and gated neighborhood with new amenities good for all with no discrimination 
+shl {}...
+--------------------------------------------------
+[Row 1680] Base Rent: 500000.0
+Text Snippet: discover this 3 occupant apartment with separate bathroom and toilet mini flat for yoruba responsible couple, guys and ladies in a pay and start cooking apartment in an amazing secure environment. located in ilewe via agbele, ...
+--------------------------------------------------
+[Row 1689] Base Rent: 100000000.0
+Text Snippet: azuri towers!
+.
+luxury 3 & 4 apartment offered for lease.
+.
+location: eko atlantic free zone city, victoria island, lagos.
+.
+value: contact for price
+.
+features;
+free zone
+high rise building
+living room
+dining
+large bedrooms
+elevator
+swimming pool
+kids play section
+gym
+24/7 power supply
+acs
+fully eq...
+--------------------------------------------------
+[Row 1693] Base Rent: 1800000.0
+Text Snippet: a lovely and nice fitted 3 bedroom apartment in a serene and secure mini estate in a nice neighborhood good for all and decent ones with no discrimination 
+al {}...
+--------------------------------------------------
+[Row 1695] Base Rent: 700000.0
+Text Snippet: discover this portable mini flat with pop fittings and 24/7 effective power supply, exceptional designed for responsible newly couples, single guys or ladies who appreciate efficient lighting and other good factors in a secure avenue 
+        located in ilewe, meiran, lagos state ...
+--------------------------------------------------
+[Row 1698] Base Rent: 2500000.0
+Text Snippet: a block of flat comprises of 2nos 3bedroom flat @ akanni egbeyemi street by ahmadiya bus stop abule egba, lagos.
+rent: 2,500,000
+sc: yet to be determined {}...
+--------------------------------------------------
+[Row 1716] Base Rent: 100000000.0
+Text Snippet: azuri towers!
+.
+luxury 3 & 4 apartment offered for lease.
+.
+location: eko atlantic free zone city, victoria island, lagos.
+.
+value: contact for price
+.
+features;
+free zone
+high rise building
+living room
+dining
+large bedrooms
+elevator
+swimming pool
+kids play section
+gym
+24/7 power supply
+acs
+fully eq...
+--------------------------------------------------
+[Row 1717] Base Rent: 1500000.0
+Text Snippet: a sweet and lovely newly built mini flat in a serene and gated neighborhood with new amenities good for all with no discrimination 
+shl {}...
+--------------------------------------------------
+[Row 1721] Base Rent: 2000000.0
+Text Snippet: 2-bedroom flat to let now 
+         (semi direct brief) 
+        
+
+* agbele bus stop, ekoro abule-egba, lagos. 
+        *rent:* 
+        * ?2million per annum 
+        
+*features:* 
+        * very spacious & neat 
+        * all round pop finishing 
+        * big dining space 
+        * all room en s...
+--------------------------------------------------
+[Row 1724] Base Rent: 100000000.0
+Text Snippet: azuri towers!
+.
+luxury 3 & 4 apartment offered for lease.
+.
+location: eko atlantic free zone city, victoria island, lagos.
+.
+value: contact for price
+.
+features;
+free zone
+high rise building
+living room
+dining
+large bedrooms
+elevator
+swimming pool
+kids play section
+gym
+24/7 power supply
+acs
+fully eq...
+--------------------------------------------------
+[Row 1735] Base Rent: 700000.0
+Text Snippet: discover modern comfort in this beautifully appointed two-bedroom apartment featuring its own prepaid meter for reliable, uninterrupted electricity and constant running water. step out onto your private balcony to enjoy peaceful views and fresh air. the apartment is upstairs featuring two balconies ...
+--------------------------------------------------
+[Row 1738] Base Rent: 800000.0
+Text Snippet: letting. (a link). 
+        
+
+
+amazing mini@800k per annum for all tribes!!! 
+        
+
+
+discover this beautiful mini flats for all respective background in a pay and start relaxing for great comform with beautiful fitings fully installed in a good secure environment. located at ekoro axis via ilepo...
+--------------------------------------------------
+[Row 1741] Base Rent: 1300000.0
+Text Snippet: a sweet and lovely newly built 2 bedroom apartment with 3 toilets in a very quiet and serene neighborhood just 1-2 mins walk to the tarred road good for all with no discrimination 
+su {}...
+--------------------------------------------------
+[Row 1742] Base Rent: 1200000.0
+Text Snippet: letting. (2 links). 
+        
+
+
+
+magnificent mini @its best [email protected] per year from all background !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+        
+
+
+discover this spacious stunning mini flat with pop fittings, kitchen cabinet, water heater and other amazing fittings fully equiped in a pay a...
+--------------------------------------------------
+[Row 1744] Base Rent: 1000000.0
+Text Snippet: estate stunning mini flat for rent @1m yearly 
+        
+
+discover this executive, newly built mini flat for rent, suitable for all backgrounds. pay and start cooking amenities available. located in a lovely, befitting home apartment with executive fittings, fully equipped at meiran/ joke ayo, lagos ...
+--------------------------------------------------
+[Row 1756] Base Rent: 2000000.0
+Text Snippet: *to let*???? 
+        
+very decent and spacious upstairs miniflat apartment with full pop design, screeded walls, 2toilet and bath, nice environment, balcony, personal prepaid meter, carpark, fenced and gated compound with good light system etc now available for rent. 
+        
+rent; 2million per an...
+--------------------------------------------------
+[Row 1757] Base Rent: 150000000.0
+Text Snippet: just out @ ilupeju warehouse for lease. description: warehouse of 1,000sqmts and office space of 300 sqmtrs with enough packing space in ilupeju industrial estate for both productions/storage. rate: n150m per annum for 2 years. or 3 yrs. josh ...
+--------------------------------------------------
+[Row 1763] Base Rent: 1800000.0
+Text Snippet: *bring am na*???? very decent and spacious groundfloor miniflat apartment with full pop design, water heater, screeded walls, nice environment, prepaid meter, fenced and gated compound with good light system etc now available for rent. rent; 2million per annum. location; off shipeolu rd, palmgroove,...
+--------------------------------------------------
+[Row 1780] Base Rent: 1700000.0
+Text Snippet: a nice and fitted 2 bedroom apartment in a serene and very secure estate with no landlord good for all and no discrimination 
+sha {}...
+--------------------------------------------------
+[Row 1817] Base Rent: 1700000.0
+Text Snippet: a nice and fitted 2 bedroom apartment in a serene and very secure estate with no landlord good for all and no discrimination 
+sha {}...
+--------------------------------------------------
+[Row 2051] Base Rent: 10000000.0
+Text Snippet: *to let* 4 bed terrace duplex location: plantinum way, nicon town axis, lekki, lagos. rent: 10m annually other charges 10% each service charges 150k monthly ...
+--------------------------------------------------
+[Row 2054] Base Rent: 10000000.0
+Text Snippet: 4 bedroom terrace duplex with bq for rent
+location: lekki scheme 2, by abraham adesanya, lagos
+ features:
+• 4 spacious bedrooms 
+• boys’ quarter (bq) 
+• all rooms en-suite
+• spacious living room 
+• high ceiling living area 
+• family lounge 
+• waiting room 
+• spacious compound 
+• suitable for commerc...
+--------------------------------------------------
+[Row 2081] Base Rent: 25000000.0
+Text Snippet: rent alert  
+4bedroom terrace duplex with a bq
+location: ikate
+service charge: tbd {}...
+--------------------------------------------------
+[Row 2100] Base Rent: 13000000.0
+Text Snippet: serviced 3 bedroom apartment for rent rent: 13m ( 3bed) 10m ( 2bed) serviced charge: 1.2m a l c: 10% each ...
+--------------------------------------------------
+[Row 2129] Base Rent: 20000000.0
+Text Snippet: fully furnished spacious 5 bedroom detached duplex with bq and security house for rent 
+        
+location: lovely estate in agungi, lagos 
+        
+rent: 20m for 1 year 
+        18m for 2 years 
+        other fees: 10% ...
+--------------------------------------------------
+[Row 2152] Base Rent: 550000000.0
+Text Snippet: for sale: superb and fantastic 5 bedroom detached duplex with swimming pool, gym and cinema at ologolo, lekki, lagos 
+        
+description: 
+        this superb and fantastic edifice is situated in an estate at ologolo, lekki, lagos. this property is irresistible with large sitting room and dining o...
+--------------------------------------------------
+[Row 2172] Base Rent: 15000000.0
+Text Snippet: for rent – 4 bedroom semi-detached duplex + bq 
+ location: ikota, lekki, lagos 
+rent: ₦15,000,000 per annum
+ charges:
+• agency (10%)  
+• legal (10%)  
+• caution (10%) 
+ total package 
+ features & amenities:
+located in a secure estate  • 4 spacious bedrooms (all en-suite)  • boys’ quarter (bq) fully ...
+--------------------------------------------------
+[Row 2199] Base Rent: 8000000.0
+Text Snippet: to let *(direct to mandate)*
+4-bedroom terrace duplex with bq
+* ikota, lagos*
+• service charge: self serviced
+*property features:*
+• all rooms en-suite
+• fitted kitchen cabinets
+• walk-in shower
+• wardrobes/closets
+• self compound
+• stamp concrete floor
+• gated and secure estate
+• good road access
+b...
+--------------------------------------------------
+[Row 2209] Base Rent: 20000000.0
+Text Snippet: *for lease
+description: 8 units of 3 bedrooms flat with bq and swimming pool.
+location: lekki’s street, lekki right*
+rent: ngn20m asking per annum for each unit 
+note: the owner is looking for a corporate tenant who will take all the units {}...
+--------------------------------------------------
+[Row 2212] Base Rent: 13500000.0
+Text Snippet: *semi direct renting*?? 2bedroom with bq at ilasan ikate ?? furnished 13.5m unfurnished 8.5m has pool ,gym,snooker board sc tbd alc 10% //oma ...
+--------------------------------------------------
+[Row 2258] Base Rent: 3000000.0
+Text Snippet: *for rent:* 
+        
+*executive 3 bedrooms apartment:* 
+        
+* *all rooms ensuite,* 
+        * *pop,* 
+        * *4 toilets,* 
+        * *visitors' toilet,* 
+        * *upstairs,* 
+        * *sceeded walls,* 
+        * *kitchen cabinets and shelves.,* 
+        * *wardrobes,* 
+        * *water t...
+--------------------------------------------------
+[Row 2278] Base Rent: 3000000.0
+Text Snippet: *for rent:* *exotic 3 bedrooms apartment:* * *all rooms ensuite,* * *pop,* * *4 toilets,* * *upstairs,* * *sceeded walls,* * *kitchen cabinets and shelves.,* * *wardrobes,* * *washhand basins,* * *personal metre,* * *steady light,* * *portable water,* * *enough car parking spaces* *location: magodo ...
+--------------------------------------------------
+[Row 2282] Base Rent: 3500000.0
+Text Snippet: *to let* 
+        2 bedroom flat all rooms en-siute downstairs available (3 people in a compound) at gateway zone magodo phase 1 residential scheme *rent: n3.5 million per annum* other charges follow suites 
+        inspection fee is 12k ...
+--------------------------------------------------
+[Row 2302] Base Rent: 15000000.0
+Text Snippet: description: well maintained 4bedroom terrace duplex in a serene environment of magodo magodo phase 2 gra. {}...
+--------------------------------------------------
+[Row 2313] Base Rent: 15000000.0
+Text Snippet: description: well maintained 4bedroom terrace duplex in a serene environment of magodo magodo phase 2 gra. {}...
+--------------------------------------------------
+[Row 2376] Base Rent: 3000000.0
+Text Snippet: *available for lease* 3bedroom flat bungalow self compound, available in a central of ogba for a lease, easy access to excellent hotel it can be use for school or any other purpose location : ajayi road ogba rent : 3million other charges follow suites inspection fee is 12k duration: 3years - 5yrs ...
+--------------------------------------------------
+[Row 2436] Base Rent: 2500000.0
+Text Snippet: urgent rent 
+        
+isheri magodo property lease. 
+        
+description: 
+        one bedroom luxury terrace duplex available for rent @ isheri before magodo phase 1 estate. 
+        
+rent:. 2.5m per annum. ...
+--------------------------------------------------
+[Row 2441] Base Rent: 12000000.0
+Text Snippet: for rent :- newly built 4 bedroom semi detached duplex duplex at greenfield estate , opic estate, lagos description: the property comes with a large siting room, dining, large master bedroom, bathtub, large kitchen and store with family lounge upstairs. features: - brand new - all rooms en-suite - s...
+--------------------------------------------------
+[Row 2451] Base Rent: 1750000.0
+Text Snippet: just out for rent 
+        
+newly renovated mini flat apartment 
+        
+ unity estate, egbeda – lagos 
+        experience comfort and security in a serene, well-maintained environment. 
+        
+ features: 
+        - fully finished with full p.o.p ceiling 
+        - ?all-round wall & floor tiles 
+...
+--------------------------------------------------
+[Row 2459] Base Rent: 2200000.0
+Text Snippet: to let 
+        
+a lovely and spacious 
+        
+ 2-bedroom apartment (all rooms en-suite), located upstairs. 
+        features: 
+        
+all rooms en-suite 
+        separate prepaid meter 
+        water heater 
+        
+spacious layout 
+        
+location: akiode, linking budland, off grammar schoo...
+--------------------------------------------------
+[Row 2481] Base Rent: 15000000.0
+Text Snippet: to-let/lease 
+        fully detached 5bedroom duplex + security house , spacious compound in a calm residential close at grammar school ojodu price @15m per annual negotiable.. 
+        note: co-operate working class needed or co-operate office..dm@snl for immediate conclusion. ...
+--------------------------------------------------
+[Row 2520] Base Rent: 80000000.0
+Text Snippet: for lease:
+description: luxury 4-bedroom maisonettes with a room bq each. comes with swimming pool, gym and jetty.
+location: banana island road, ikoyi
+pictures available upon request. {}...
+--------------------------------------------------
+[Row 2531] Base Rent: 3500000.0
+Text Snippet: just out 
+        to let 
+        
+executive spacious 2 bedroom flat (upstairs) with pop finishing, with wardrobe and large kitchen with fitted cabinets 
+        
+location: in a secured neighborhood at ogungbayi estate via st timothy grammar school ojodu berger lagos 
+        
+rent: 3.5m per annum 
+...
+--------------------------------------------------
+[Row 2535] Base Rent: 1500000.0
+Text Snippet: now letting: 
+        
+newly built standard roomself containe and miniflat at alagbole. very accessible to berger. 
+        
+roomself: 
+        ground floor - 1.3m p/a 
+        1st floor - 1.4m p/a 
+        2nd floor -1.5m p/a full pop 
+        
+added value: the house comes with 24hrs solar system t...
+--------------------------------------------------
+[Row 2556] Base Rent: 4000000.0
+Text Snippet: this is a decent brand new en-suites 2bed at ojodu berger off grammar school area for 
+        4m other charges follow suites 
+        
+video is on youtube: thykopreal3722 
+        
+inspection fee is 12k ...
+--------------------------------------------------
+[Row 2562] Base Rent: 5000000.0
+Text Snippet: this is a big open space good for any kind of commercial activities on a major road close to grammar school price is 5m owner want 3years or more payment other charges follow suites inspection fee is 12k ...
+--------------------------------------------------
+[Row 2598] Base Rent: 1200000.0
+Text Snippet: *to let at united estate* 
+        
+ newly renovated spacious 
+         *miniflat* 
+        with tastefully finished p.o.p screeding wall ceramics floor tiles enough packing spaces fence round with gated 
+        
+?? *united estate, alagbole* immediately after bridge 
+        easy accessibility to o...
+--------------------------------------------------
+[Row 2616] Base Rent: 2000000.0
+Text Snippet: now letting: 
+        
+newly built standard roomself contain and miniflat at alagbole. very accessible to berger. 
+        
+miniflat: 
+        ground floor - 1.8m p/a 
+        1st floor - 1.9m p/a 
+        2nd floor - 2m p/a full pop 
+        
+added value: the house comes with 24hrs solar system to ...
+--------------------------------------------------
+[Row 2709] Base Rent: 1500000.0
+Text Snippet: newly built, spacious and standard miniflat, 2&3 bedroom in a secured environment, with pop, constant light, personal prepaid, screeding, cabinet, balcony,painted,fitted light,chandelier and more etc. 
+         *location: onipanu lagos 
+        *??miniflat rent: 1.5 per annum* 
+        *??two bed pe...
+--------------------------------------------------
+[Row 2717] Base Rent: 1600000.0
+Text Snippet: standard and executive room self contain flat for rent ??waec axis, fadeyi yaba *features: pop, tiled floor, spacious kitchen cabinet, 1t 1b, gated compound, cctv camera, upstairs etc* rent: 1.6m per annum service charge ? nb: working class client with verifiable job! ##wrix:::: ...
+--------------------------------------------------
+[Row 2719] Base Rent: 1900000.0
+Text Snippet: to let a decent lovely mini flat features: all tiles pop kitchen cabinet spacious screeded walls cctv prepaid meter secured environment location; fadeyi shomolu lagos rent: 1.9m per annum. ay ...
+--------------------------------------------------
+[Row 2729] Base Rent: 1800000.0
+Text Snippet: ?? direct to the caretaker ?? – to let newly built, spacious and standard miniflat in a secure and accessible environment. ?? rent: ?1.8m per annum ?? location: fadeyi – onipanu, lagos ?? property features: • newly built apartment • spacious miniflat • pop ceiling • 2 toilets • balcony • constant li...
+--------------------------------------------------
+[Row 2735] Base Rent: 2500000.0
+Text Snippet: to let a decent lovely mini flat features: all tiles pop kitchen cabinet spacious screeded walls cctv prepaid meter secured environment location; fadeyi shomolu lagos rent: 2.5m per annum. ay ...
+--------------------------------------------------
+[Row 2738] Base Rent: 1000000.0
+Text Snippet: exceptional decent, spacious, standard, nice *roomself con* with pop, constant light??, balcony and other amenities. 
+        *@fadeyi* 
+        
+rent 1m per annum 
+        
+note the house it’s 85% ready 
+        
+*fastest finger?* 
+        *bring your client for inspection* ...
+--------------------------------------------------
+[Row 2739] Base Rent: 2100000.0
+Text Snippet: standard and executive mini flat for rent ??waec axis, fadeyi yaba *features: pop, tiled floor, spacious kitchen cabinet, 1t 1b, gated compound, cctv camera, upstairs etc* rent: 2.1m per annum service charge ? nb: working class client with verifiable job! ##wrix:::: ...
+--------------------------------------------------
+[Row 2742] Base Rent: 1500000.0
+Text Snippet: direct brief – to let (miniflat) 
+        
+a neatly used, spacious and standard miniflat located in a secure environment with great accessibility to major parts of lagos. 
+        
+ rent : 1,500,000 per annum 
+        
+ location: off awoyokun, onipanu, lagos 
+        
+ property features: 
+         •...
+--------------------------------------------------
+[Row 2751] Base Rent: 1200000.0
+Text Snippet: ?? s/direct brief ?? – to let newly built, spacious and standard roomself contain in a secure and well accessible environment. ?? rent: ?1.2m per annum ?? location: fadeyi – waec axis, yaba, lagos ?? property features: • newly built apartment • spacious roomself contain • constant light supply • pre...
+--------------------------------------------------
+[Row 2753] Base Rent: 1800000.0
+Text Snippet: executive miniflat apartment with modern fittings in a calm environment, in a gated compound, car park, pop, screening, security, water heater, ground floor etc. price: 1.8m per annum. location: off pedro road, easy access to charlie boy, gbagada. ...
+--------------------------------------------------
+[Row 2754] Base Rent: 3000000.0
+Text Snippet: ?? direct to the caretaker ?? – to let newly built, spacious and standard 2 bedroom flat in a secure and accessible environment. ?? rent: ?3m per annum ?? location: fadeyi – onipanu, lagos ?? property features: • newly built apartment • spacious 2 bedroom flat • pop ceiling • 3 toilets • constant li...
+--------------------------------------------------
+[Row 2756] Base Rent: 2200000.0
+Text Snippet: to let a decent lovely mini flat features: all tiles pop kitchen cabinet spacious screeded walls cctv prepaid meter secured environment location; fadeyi shomolu lagos rent: 2.2m per annum. ay ...
+--------------------------------------------------
+[Row 2759] Base Rent: 250000.0
+Text Snippet: a bed space for hostel at fadeyi close to yaba tech school for 250k per 6 months 
+        
+fatima ...
+--------------------------------------------------
+[Row 2762] Base Rent: 1500000.0
+Text Snippet: to let a decent lovely room self contain features: all tiles pop kitchen cabinet screeded walls spacious cctv secured environment location: fadeyi shomolu lagos rent: 1.5m per annum ...
+--------------------------------------------------
+[Row 2788] Base Rent: 5000000.0
+Text Snippet: contact me for inspection of this elegant and fascinated 2 bedroom flat located at marsha, one room ensuit, second room shares toilet with the visitors. located in am estate. {}...
+--------------------------------------------------
+[Row 2793] Base Rent: 5000000.0
+Text Snippet: newly built & tastefully finished 2-bedroom flat (upstairs) ?? features: •all rooms ensuite •pop ceiling •prepaid meter •borehole water supply •spacious car park •screeded walls •modern finishing ?? location: off brown road, aguda, surulere ?? rent: ?5m per annum ...
+--------------------------------------------------
+[Row 2814] Base Rent: 6000000.0
+Text Snippet: kilo, surulere, lagos 
+        *renovation on going at the moment.* 
+        
+spacious 6 units of 3-bedroom flat (upstairs & downstairs) 
+        • all rooms en-suite 
+        • fully tiled floors 
+        • pop ceiling 
+        • screeded walls 
+        • parking space 
+        • located on a secur...
+--------------------------------------------------
+[Row 2821] Base Rent: 85000000.0
+Text Snippet: newly built 4 duplex terrace duplex @85m at lekki scheme 2 estate abraham adesanya ajah ...
+--------------------------------------------------
+[Row 2857] Base Rent: 1800000.0
+Text Snippet: this is a brand new mini flat upstairs and ground floor is available with different price tag please note. ground floor rent price is 1.8m owner want a year and half upfront 90% completed to be ready first week of march. other charges follow suites 
+        
+video is on youtube: thykopreal3722 
+    ...
+--------------------------------------------------
+[Row 2860] Base Rent: 18000000.0
+Text Snippet: large well built 4 bedroom terrace house within a well maintained mini estate @iponri surulere 
+        the ppty has the following features: 
+        
+large fitted kitchen 
+        family lounge 
+        walk-in closet 
+        guest toilet 
+        jacuzzi 
+        bq 
+        uniformed security 
+ ...
+--------------------------------------------------
+[Row 2885] Base Rent: 5000000.0
+Text Snippet: contact me for inspection of this elegant and fascinated 2 bedroom flat located at marsha, one room ensuit, second room shares toilet with the visitors. located in am estate. {}...
+--------------------------------------------------
+[Row 2906] Base Rent: 50000000.0
+Text Snippet: joseph004-for rent 
+description:luxury 4 bedroom apartment
+location:off adetokunbo ademola, victoria island, lagos
+service charge: 
+refundable caution deposit: 
+agency: 
+legal: 
+title doc:
+good title (lease)
+features:
+• 4 fully en-suite bedrooms with wardrobes
+• spacious living room & dining area
+• ...
+--------------------------------------------------
+[Row 2919] Base Rent: 12000000.0
+Text Snippet: for rent! 
+2bedroom apartment
+location: oniru vi, lagos.
+
+service charge: n1million
+diesel deposit: n3million
+features:
+- 1st floor unit
+- spacious living area
+- all rooms en-suite
+- fitted kitchen (gas cooker)
+- ⁠spacious rooms
+- ⁠balcony
+- gated environment
+- call to access estate
+- ample parking ...
+--------------------------------------------------
+[Row 2937] Base Rent: 50000000.0
+Text Snippet: joseph004-for rent 
+description:luxury 4 bedroom apartment
+location:off adetokunbo ademola, victoria island, lagos
+service charge: 
+refundable caution deposit: 
+agency: 
+legal: 
+title doc:
+good title (lease)
+features:
+• 4 fully en-suite bedrooms with wardrobes
+• spacious living room & dining area
+• ...
+--------------------------------------------------
+[Row 2939] Base Rent: 22000000.0
+Text Snippet: luxury fully furnished 3 bedroom apartment for rent.
+location: 1004 estate, victoria island, lagos
+rent: ₦22,000,000 per annum
+ charges:
+• agency (10%) – 
+• legal (10%) –
+• caution (10%) – 
+• service charge – 
+ total package:
+ features & amenities:
+• fully furnished 
+• 3 spacious bedrooms 
+• all roo...
+--------------------------------------------------
+[Row 2941] Base Rent: 1200000.0
+Text Snippet: discover tranquility in the heart of victoria island at lunar studio. this stylish and minimalist studio apartment offers a serene escape, blending grey and white elements to create a harmonious and modern space. 
+book your stay with us and enjoy a stylish experience at this centrally-located place....
+--------------------------------------------------
+[Row 2954] Base Rent: 1200000.0
+Text Snippet: discover tranquility in the heart of victoria island at lunar studio. this stylish and minimalist studio apartment offers a serene escape, blending grey and white elements to create a harmonious and modern space. 
+book your stay with us and enjoy a stylish experience at this centrally-located place....
+--------------------------------------------------
+[Row 2956] Base Rent: 22000000.0
+Text Snippet: very spacious 2-bedroom apartment with swimming pool • oniru, victoria island •  
+for rent: very spacious 2-bedroom apartment in a well-maintained development in oniru, victoria island. suitable for both residential and commercial use, offering comfort, accessibility, and modern amenities.
+ location...
+--------------------------------------------------
+[Row 2958] Base Rent: 22000000.0
+Text Snippet: very spacious 2-bedroom apartment with swimming pool • oniru, victoria island •  
+for rent: very spacious 2-bedroom apartment in a well-maintained development in oniru, victoria island. suitable for both residential and commercial use, offering comfort, accessibility, and modern amenities.
+ location...
+--------------------------------------------------
+[Row 2959] Base Rent: 1200000.0
+Text Snippet: discover tranquility in the heart of victoria island at lunar studio. this stylish and minimalist studio apartment offers a serene escape, blending grey and white elements to create a harmonious and modern space. 
+book your stay with us and enjoy a stylish experience at this centrally-located place....
+--------------------------------------------------
+[Row 2965] Base Rent: 8000000.0
+Text Snippet: for rent! 
+1 bedroom apartment 
+location: oniru vi, lagos
+
+service charge: n1million
+diesel deposit: n2million
+total package:n13,400,000
+features:
+- first floor unit
+- spacious living area
+- ⁠room en-suite 
+- fitted kitchen
+- ⁠spacious room
+- gated environment
+- easy to access estate 
+- ample parkin...
+--------------------------------------------------
+[Row 2968] Base Rent: 30000000.0
+Text Snippet: for rent! 
+4bedroom terrace duplex with bq (with swimming pool) 
+location:victoria island, lagos
+rent:
+agency:
+legal: 
+caution
+service charge
+energy deposi
+total package:
+features:
+- swimming pool 
+- spacious living area
+- all rooms en-suite 
+- fitted kitchen
+- gated environment
+- call to access est...
+--------------------------------------------------
+[Row 2969] Base Rent: 1200000.0
+Text Snippet: discover tranquility in the heart of victoria island at lunar studio. this stylish and minimalist studio apartment offers a serene escape, blending grey and white elements to create a harmonious and modern space. 
+book your stay with us and enjoy a stylish experience at this centrally-located place....
+--------------------------------------------------
+[Row 2974] Base Rent: 22000000.0
+Text Snippet: luxury fully furnished 3 bedroom apartment for rent.
+location: 1004 estate, victoria island, lagos
+rent: ₦22,000,000 per annum
+ charges:
+• agency (10%) – 
+• legal (10%) –
+• caution (10%) – 
+• service charge – 
+ total package:
+ features & amenities:
+• fully furnished 
+• 3 spacious bedrooms 
+• all roo...
+--------------------------------------------------
+[Row 2989] Base Rent: 2500000.0
+Text Snippet: newly built spacious mini flat, wall screeded, pop finishing, parking space, prepaid, solar, mikano generator. 
+        rent: 2.5m ...
+--------------------------------------------------
+[Row 2993] Base Rent: 4000000.0
+Text Snippet: to let: newly built an luxury 2bedrom flat alrooms ensuite with pop ceiling water heater wardrobe kitchen cabinet. 
+        rent: 4m per annun 
+        other chargers to be discuss 
+        call: adekunle home ...
+--------------------------------------------------
+[Row 3012] Base Rent: 1000000.0
+Text Snippet: ?? s/direct brief ?? – to let neatly used, spacious and standard roomself in a secure and accessible environment. ?? rent: ?1m per annum ?? no service charge ?? location: akoka, yaba, lagos ?? property features: • spacious roomself apartment • neatly used unit • constant light supply • prepaid meter...
+--------------------------------------------------
+[Row 3037] Base Rent: 1500000.0
+Text Snippet: ?? direct brief – to let a standard and executive mini flat, featuring a big and spacious layout with a separate prepaid meter. ideal for individuals or small families seeking comfort and accessibility in a prime yaba location. ?? rent: ?1,500,000 per annum ?? caution: tbd ?? service charge: tbd ?? ...
+--------------------------------------------------
+[Row 3044] Base Rent: 2000000.0
+Text Snippet: executive, very decent, standard and nice miniflat with pop, screeded, kitchen cabinet and all other necessary amenities at akoka-yaba lagos 
+        
+rent: 2m per annum ...
+--------------------------------------------------
+[Row 3047] Base Rent: 2600000.0
+Text Snippet: to let a decent lovely mini flat features: allen pop kitchen cabinet spacious screeded walls wardrobe 2 toilets water heater prepaid meter secured environment location: akoka yaba lagos rent: 2.6m per annum jos ...
+--------------------------------------------------
+[Row 3051] Base Rent: 1000000.0
+Text Snippet: this is a lovely service selfcontain @ alara street onike sabo yaba. 
+        it is fenced round with gate, gated street, quiet neighborhood, easy accessible to island, good road. 
+        rent 1.2m yearly with service charge of 600k yearly for utilities and generator, personal prepaid meter. 
+     ...
+--------------------------------------------------
+[Row 3061] Base Rent: 1000000.0
+Text Snippet: *just out at akoka* 
+        
+
+an executive tastefully very decent, standard and nice roomself con at akoka-yaba lagos with pop, screeded walls and all other necessary amenities with easy access to the island and mainland. 
+        
+rent: 1m per annum 
+        utility: 150k 
+        
+ inspection ong...
+--------------------------------------------------
+[Row 3073] Base Rent: 1500000.0
+Text Snippet: ?? direct brief – to let a standard and executive mini flat, located in a highly accessible and convenient part of adekunle, yaba. ideal for comfortable living with easy connectivity to major parts of lagos. ?? rent: ?1,500,000 per annum ?? location: adekunle, yaba, lagos ?? floor: upstairs ?? prope...
+--------------------------------------------------
+[Row 3080] Base Rent: 5000000.0
+Text Snippet: just out for letting executive, decent, standard and spacious, two (2) bedrooms flat in a gated compound, personal prepaid meter, carpark, serene environment, constant light, screeded walls and other amenities at alagomeji yaba lagos with easy access to the island and mainland. rent: 5m per annum ##...
+--------------------------------------------------
+[Row 3083] Base Rent: 1800000.0
+Text Snippet: ?? just out ?? – direct to the mandate in charge a very decent, standard and nice miniflat (upstairs unit) in a secure and accessible environment. ?? rent: ?1.8m per annum ?? location: akoka, yaba, lagos ?? property features: • upstairs unit • standard miniflat • pop ceiling • well-ventilated rooms ...
+--------------------------------------------------
+[Row 3085] Base Rent: 7000000.0
+Text Snippet: just out – to let (3 bedroom flat – upstairs) 
+        
+a spacious 3-bedroom apartment (all rooms en-suite) located in a secure gated compound with quality amenities and good accessibility. 
+        
+ rent : 7,000,000 per annum 
+        
+ location: alagomeji, yaba, lagos 
+        
+ property features...
+--------------------------------------------------
+[Row 3104] Base Rent: 1000000.0
+Text Snippet: *s/direct brief??* neatly used, spacious and standard *roomself* in a secured environment, with constant light, prepaid, cabinet, easy accessibility to island, ikeja, yaba etc. *location: akoka, yaba, lagos* *??rent: #1m per annum* *no service charge* fastest finger inspection anytime ...
+--------------------------------------------------
+[Row 3112] Base Rent: 1500000.0
+Text Snippet: this is a lovely roomself contain new house @ araromi street off folagoro. 
+        it is fenced round with gate, parking space, security guard, quiet neighborhood, easy accessible, good electricity and clean bore hole water. 
+        rent 1.5m yearly with service charge of 200k yearly. 
+        it ...
+--------------------------------------------------
+[Row 3116] Base Rent: 1350000.0
+Text Snippet: this is a lovely selfcontain @ akoka yaba. it is fenced round with gate, parking space, borehole water, quiet neighborhood, good road. 
+        rent 1,350,000 plus service charge of 650k yearly which includes generator. 
+        7-12pm time for generator when there is no light in the night. 
+       ...
+--------------------------------------------------
+[Row 3118] Base Rent: 4000000.0
+Text Snippet: still available at akoka an executive tastefully spacious standard and very decent unit of 3 bed room flat, 3 toilet, 2 bath, renovated comes with p.o.p screending ,well tiled, kitchen cabinet, & wardrobe, price: 4m annualy location: emily akinola st off sent finbers road akoka yaba lagos ??? ...
+--------------------------------------------------
+[Row 3160] Base Rent: 2000000.0
+Text Snippet: fresh letting executive standard mini flat in a conducive environment well screed with pop ceiling finishing with car space. location : community road akoka rent 2m per annum ##was::: ...
+--------------------------------------------------
+[Row 3162] Base Rent: 7500000.0
+Text Snippet: to let a decent lovely 3 bedroom flat features: all tiles pop kitchen cabinet all room ensuite spacious prepaid meter wardrobe store balcony screeded walls gated secured environment location: onike yaba lagos rent: 7.5m per annum. jos ...
+--------------------------------------------------
+[Row 3175] Base Rent: 5000000.0
+Text Snippet: ???? to let *pay and move in* a newly built 9 unit of 2bedroom flat with all room ensuit. located at off oshogbo street via adekunle kuye surulere. upstairs/ground floor available, massive car park, clean borehole water, persoanl prepaid meter, balcony, kitchen cabinet, store, all round pop, screede...
+--------------------------------------------------
+[Row 3187] Base Rent: 1700000.0
+Text Snippet: to let a decent lovely room self contain features: all tiles kitchen cabinet spacious screeded walls balcony secured environment location: akoka yaba lagos rent: 1.7m per annum. jos ...
+--------------------------------------------------

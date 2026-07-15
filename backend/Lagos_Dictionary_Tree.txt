@@ -1,0 +1,421 @@
+=== OFFICIAL LAGOS LOCATION DICTIONARY ===
+
+📍 Agege
+    ├── Agbotikuyo
+    ├── Capitol
+    ├── Cement
+    ├── Fagba
+    ├── Ifako
+    ├── Iju
+    ├── Iju-Ishaga
+    ├── LSDPC estate
+    ├── Magbon
+    ├── Meiran
+    ├── Mulero
+    ├── New Oko Oba
+    ├── Oke-Odo
+    ├── Oko-Oba
+    ├── Pen Cinema
+
+📍 Ajah
+    ├── Abraham Adesanya Estate
+    ├── Ado / Ajah
+    ├── Ajiwe
+    ├── Canaan Estate
+    ├── Crown Estate
+    ├── Eden Garden Estate
+    ├── Graceland Estate
+    ├── Lekki Gardens Estate
+    ├── Off Lekki-Epe Expressway
+    ├── Ogombo
+    ├── Oke Ira / Ajah
+    ├── Olokonla
+    ├── Peninsula Estate
+    ├── Sangotedo
+    ├── Thomas Estate
+    ├── VGC / Ajah
+
+📍 Alimosho
+    ├── Akesan
+    ├── Akowonjo
+    ├── Dopemu
+    ├── Egbeda
+    ├── Iseri Olofin
+    ├── Orisunbare
+    ├── Pipeline
+    ├── Shasha
+
+📍 Amuwo-Odofin
+    ├── Abule Ado
+    ├── Agboju
+    ├── Alakija
+    ├── Apple Junction
+    ├── Festac
+    ├── Green Estate
+    ├── Ibeshe / Amuwo-Odofin
+    ├── Satellite Town
+
+📍 Apapa
+    ├── Ajegunle
+    ├── Apapa G.R.A
+    ├── Apapa Road
+    ├── Ijora
+    ├── Kirikiri
+    ├── Kirikiri 1
+    ├── Liverpool
+    ├── Olodi Apapa
+    ├── Snake Island
+    ├── Tin Can
+    ├── Trade Fair
+
+📍 Badagry
+    ├── Age Mowo
+    ├── Ajido
+    ├── Aradagun
+    ├── Badagry / Badagry
+    ├── Ilogbo Eremi
+    ├── Mafo
+    ├── Oko Afo
+
+📍 Egbe/Idimu
+    ├── Arida
+    ├── College
+    ├── Council
+    ├── Idimu
+    ├── Isheri / Egbe Idimu
+    ├── Pap
+
+📍 Ejigbo
+    ├── Ejigbo / Ejigbo
+    ├── Ife-Odan
+    ├── Ilawo
+    ├── Olla
+    ├── Orilowo
+
+📍 Epe
+    ├── Epe
+    ├── Epe Road
+
+📍 Gbagada
+    ├── Atunrase Medina
+    ├── Ifako-Gbagada
+    ├── Medina
+    ├── Millenuim/UPS
+    ├── New Garage / Gbagada
+    ├── Oworonshoki / Gbagada
+    ├── Pedro
+    ├── Phase 1 / Gbagada
+    ├── Phase 2
+    ├── Soluyi
+
+📍 Ibeju
+    ├── Abijo
+    ├── Aiyeteju
+    ├── Akodo
+    ├── Awoyaya
+    ├── Badore
+    ├── Bogije
+    ├── Eleko
+    ├── Elemoro
+    ├── Elerangbe
+    ├── Ibeju-Agbe
+    ├── Iberikodo
+    ├── Idi-Orogbo
+    ├── Igando-Oloja
+    ├── Lakowe
+    ├── Magbon-Alade
+    ├── Mopo-Ijebu Eputu
+    ├── Orimedu
+
+📍 Ifako-Ijaiye
+    ├── Agbado
+    ├── Alagbado
+    ├── Alakuko
+
+📍 Ikeja
+    ├── Adeniyi Jones
+    ├── Agidingbi
+    ├── Airport Road / Ikeja
+    ├── Alausa
+    ├── Allen Avenue
+    ├── Awolowo Way
+    ├── Balogun
+    ├── Computer Village
+    ├── Ikeja GRA
+    ├── Mangoro
+    ├── Mobolaji Bank Anthony Way
+    ├── Oba Akran
+    ├── Obafemi Awolowo Way
+    ├── Omole Phase 1
+    ├── Omole Phase 2
+    ├── Opebi
+    ├── Oregun
+    ├── Toyin Street
+    ├── Unity Road
+
+📍 Ikorodu
+    ├── Adamo
+    ├── Agbowa
+    ├── Agric
+    ├── Akute Ajuwon
+    ├── Apeka
+    ├── Ebute
+    ├── Erunwe
+    ├── Gberigbe
+    ├── Ibeshe / Ikorodu
+    ├── Igbogbo
+    ├── Ijede / Ikorodu
+    ├── Ikorodu Garage
+    ├── Ipakodo
+    ├── Isawo
+    ├── Isiu
+    ├── Ita Oluwo
+    ├── Jumofak
+
+📍 Ikotun/Igando
+    ├── Abaranje
+    ├── Egan
+    ├── Egbe / Ikotun/Igando
+    ├── Governors Road
+    ├── Igando / Ikotun/Igando
+    ├── Ijegun
+    ├── Ikotun / Ikotun/Igando
+
+📍 Ikoyi
+    ├── 2nd Avenue Extension
+    ├── Abacha Estate
+    ├── Awolowo Road
+    ├── Banana Island
+    ├── Bourdillon
+    ├── Dolphin Estate
+    ├── Falomo
+    ├── Gerard Road
+    ├── Ikoyi S.W
+    ├── MacPherson
+    ├── Mosley Road
+    ├── Old Ikoyi
+    ├── Osborne Foreshore Estate
+    ├── Parkview Estate
+
+📍 Ilashe
+    ├── Abule Egba
+    ├── Agbara-Igbesan
+    ├── Agboyi/Ketu
+    ├── Eko Atlantic
+    ├── Ilashe
+
+📍 Ilupeju
+    ├── Bye Pass Ilupeju
+    ├── Coker Road
+    ├── Ikorodu Road / Ilupeju
+    ├── Ilupeju Industrial Estate
+    ├── Town Planning Way
+
+📍 Ipaja
+    ├── Abesan
+    ├── Ayobo
+    ├── Baruwa
+    ├── Boys Town
+    ├── Ipaja / Ipaja
+    ├── Ipaja Road
+    ├── Iyana Ipaja
+
+📍 Isolo
+    ├── Ago Palace
+    ├── Ajao Estate
+    ├── Bucknor
+    ├── Cele
+    ├── Ire Akari
+    ├── Iyana Isolo
+    ├── Kogberegbe Street
+    ├── Mile 2
+    ├── Oke-Afa
+    ├── Okota
+    ├── Osolo Way
+
+📍 Kosofe
+    ├── Erunkan
+    ├── Ketu-Alapere
+    ├── Ketu-Ikosi
+    ├── Kosofe / Kosofe
+    ├── Mile 12
+
+📍 Lagos Island (Eko)
+    ├── Apongbon
+    ├── C.M.S
+    ├── Idumota
+    ├── Lagos Island / Lagos Island
+    ├── Marina
+    ├── Obalende
+    ├── Onikan
+
+📍 Lekki
+    ├── Agungi
+    ├── Chevron
+    ├── Idado
+    ├── Igbo-efon
+    ├── Ikate
+    ├── Ikate-Elegushi
+    ├── Ikota
+    ├── Ilaje / Lekki
+    ├── Ilasan
+    ├── Jakande
+    ├── Lafiaji
+    ├── Lekki Expressway
+    ├── Lekki Free Trade Zone
+    ├── Lekki Phase 1
+    ├── Lekki Phase 2
+    ├── Nicon Town
+    ├── Ologolo
+    ├── Orange Island
+    ├── Osapa london
+
+📍 Magodo
+    ├── GRA Phase 1
+    ├── GRA Phase 2 Shangisha
+
+📍 Maryland
+    ├── Anthony Village
+    ├── LSDPC Maryland Estate
+    ├── Mende
+    ├── Onigbongbo
+    ├── Shonibare Estate
+
+📍 Mushin
+    ├── CHallenge / Mushin
+    ├── Ilasamaja
+    ├── Ladipo
+    ├── Papa Ajao / Mushin
+
+📍 Ogba
+    ├── Acme Road
+    ├── Aguda / Ogba
+    ├── Ajayi Road
+    ├── Ifako-Ogba
+    ├── Ogba Bus-Stop
+    ├── Ogba GRA
+    ├── Ogba Industrial Estate
+    ├── Oke-Ira / Ogba
+    ├── Wempco Road
+
+📍 Ogudu
+    ├── Ogudu GRA
+    ├── Ogudu-Orioke
+
+📍 Ojo
+    ├── Ajangbadi
+    ├── Alaba
+    ├── Iba / Ojo
+    ├── Okokomaiko
+    ├── Satelite Town
+
+📍 Ojodu
+    ├── Berger
+    ├── Isheri North
+    ├── Magodo Isheri
+    ├── Morgan Estate
+    ├── River Valley Estate
+    ├── Unity Estate
+    ├── Williams Estate
+    ├── Yakoyo/Alagbole
+
+📍 Ojota
+    ├── New Garage / Ojota
+    ├── Ogudu Road
+
+📍 Orile
+    ├── Abule Egba
+    ├── Agbara-Igbesan
+    ├── Agboyi/Ketu
+    ├── Eko Atlantic
+    ├── Orile
+
+📍 Oshodi
+    ├── Airport Road / Oshodi
+    ├── Bolade
+    ├── Mafoluku
+    ├── Matori
+    ├── Ojuwoye
+    ├── Oshodi Expressway
+    ├── Shogunle
+
+📍 Shomolu
+    ├── Bariga / Shomolu
+    ├── Fadeyi
+    ├── Ikorodu Road / Shomolu
+    ├── Obanikoro
+    ├── Onipanu
+    ├── Oworonshoki / Shomolu
+    ├── Palmgroove
+    ├── Shomolu / Shomolu
+
+📍 Surulere
+    ├── Abraham Adesanya
+    ├── Adelabu
+    ├── Adeniran Ogunsanya
+    ├── Aguda / Surulere
+    ├── Alaka Estate
+    ├── Alaka/Iponri
+    ├── Barracks
+    ├── Bode Thomas
+    ├── Coker
+    ├── Eric Moore
+    ├── Gbaja
+    ├── Idi Araba
+    ├── Ijesha
+    ├── Ijeshatedo
+    ├── Iponri
+    ├── Itire
+    ├── Kilo
+    ├── Lawanson
+    ├── Masha
+    ├── Ogunlana
+    ├── Ojuelegba
+    ├── Orile-Iganmu
+    ├── Papa Ajao / Surulere
+    ├── Randle Avenue
+    ├── Western Avenue
+
+📍 Tarkwa Bay Island
+    ├── Abule Egba
+    ├── Agbara-Igbesan
+    ├── Agboyi/Ketu
+    ├── Eko Atlantic
+    ├── Tarkwa Bay Island
+
+📍 Victoria Island
+    ├── 1004
+    ├── Ademola Adetokunbo
+    ├── Adeola Hopewell
+    ├── Adeola Odeku
+    ├── Ahmadu Bello Way
+    ├── Akin Adesola
+    ├── Akin Olugbade
+    ├── Bonny Camp
+    ├── Idowu Taylor
+    ├── Karimu Kotun
+    ├── Kofo Abayomi
+    ├── Ligali Ayorinde
+    ├── Saka Tinubu
+    ├── Sanusi Fafunwa
+    ├── Tiamiyu Savage
+    ├── Victoria Island Extension
+
+📍 Yaba
+    ├── Abule-Ijesha
+    ├── Abule-Oja
+    ├── Adekunle
+    ├── Akoka
+    ├── Alagomeji
+    ├── Constain
+    ├── Ebute Metta
+    ├── Fola Agoro
+    ├── Iwaya
+    ├── Jibowu
+    ├── Makoko
+    ├── Onike
+    ├── Oyingbo
+    ├── Sabo / Yaba
+    ├── Saint Agnes
+    ├── Tejuosho
+
