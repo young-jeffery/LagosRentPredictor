@@ -1,28 +1,25 @@
-// src/components/layout/Navbar.jsx
-
 export default function Navbar({ isDarkMode, toggleTheme }) {
   return (
-    <nav className="sticky top-0 z-50 transition-colors bg-white/60 dark:bg-[#0b1116]/70 backdrop-blur-md border-b border-brand-gray/10 dark:border-white/10 shadow-sm">
-      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="sticky top-0 z-50 transition-colors bg-white/70 dark:bg-[#0b1116]/80 backdrop-blur-md border-b border-brand-gray/10 dark:border-white/10 shadow-sm">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-
+          
           <div className="flex-1 flex justify-start">
-            <span className="text-sm font-rye text-brand-accent">Matric: 2209...</span>
+            <span className="text-sm font-spicy text-brand-accent">Matric: 2209...</span>
           </div>
 
           <div className="flex-1 flex justify-center items-center space-x-3">
-            {/* Restored the rectangle format by changing rounded-full to rounded */}
             <div className="w-8 h-8 rounded bg-brand-accent flex items-center justify-center font-bold text-white shadow-md">
               LR
             </div>
-            <span className="font-rye text-xl tracking-wide hidden sm:block whitespace-nowrap text-brand-dark">
+            <span className="font-spicy text-xl tracking-wide hidden sm:block whitespace-nowrap text-brand-dark dark:text-white">
               Lagos Rent Estimator
             </span>
           </div>
 
           <div className="flex-1 flex justify-end">
-            <button
-              onClick={toggleTheme}
+            <button 
+              onClick={toggleTheme} 
               className="p-2 rounded bg-brand-gray/5 dark:bg-white/10 hover:bg-brand-gray/10 dark:hover:bg-white/20 transition-colors"
             >
               {isDarkMode ? (
