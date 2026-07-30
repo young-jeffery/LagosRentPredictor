@@ -1,9 +1,11 @@
+// src/App.jsx
 import { useState, useEffect } from 'react';
 import Navbar from './components/layout/Navbar';
 import EstimatorForm from './components/EstimatorForm';
 import ResultsDisplay from './components/ResultsDisplay';
 import HistoryTable from './components/HistoryTable';
 import Footer from './components/layout/Footer';
+import ConfirmModal from './components/ui/ConfirmModal';
 import { estimateRentPrice } from './services/api';
 import { getHistory, saveToHistory } from './utils/helpers';
 import { FEATURES_LIST } from './constants/appConstants';
@@ -25,6 +27,10 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [apiError, setApiError] = useState(null);
   
+  // Custom Modal State
+  const [modal, setModal] = useState({ isOpen: false, type: 'alert', title: '', message: '', onConfirm: null });
+  const closeModal = () => setModal(prev => ({ ...prev, isOpen: false }));
+
   const [isDarkMode, setIsDarkMode] = useState(() => localStorage.getItem('theme') === 'dark');
 
   useEffect(() => {
@@ -57,7 +63,14 @@ export default function App() {
       setActiveResult(result);
       
       if (isDuplicate) {
-        setTimeout(() => alert("This exact property combination has already been estimated and is in your history."), 100); 
+        // Custom Alert Modal
+        setModal({
+          isOpen: true,
+          type: 'alert',
+          title: 'Duplicate Estimate',
+          message: 'This exact property combination has already been estimated and is in your search history. We have loaded the result for you.',
+          onConfirm: closeModal
+        });
       } else {
         const historyEntry = {
           id: crypto.randomUUID(), 
@@ -73,23 +86,50 @@ export default function App() {
   };
 
   const handleReset = () => {
-    if (window.confirm("Are you sure you want to clear all inputs and history?")) {
-      localStorage.removeItem('lagos_rent_history');
-      setHistory([]); setActiveResult(null); setFormData(INITIAL_FORM_STATE);
-    }
+    // Custom Confirm Modal
+    setModal({
+      isOpen: true,
+      type: 'confirm',
+      title: 'Reset Session',
+      message: 'Are you sure you want to completely clear all your inputs and wipe your search history? This action cannot be undone.',
+      onConfirm: () => {
+        localStorage.removeItem('lagos_rent_history');
+        setHistory([]); setActiveResult(null); setFormData(INITIAL_FORM_STATE);
+        closeModal();
+      }
+    });
   };
 
   const handleDeleteHistory = (idToDelete) => {
-    if(window.confirm("Delete this entry?")) {
-      const updatedHistory = history.filter(item => item.id !== idToDelete);
-      setHistory(updatedHistory);
-      localStorage.setItem('lagos_rent_history', JSON.stringify(updatedHistory));
-      if(activeResult && updatedHistory.length === 0) { setActiveResult(null); setFormData(INITIAL_FORM_STATE); }
-    }
+    // Custom Confirm Modal
+    setModal({
+      isOpen: true,
+      type: 'confirm',
+      title: 'Delete Entry',
+      message: 'Are you sure you want to remove this estimate from your search history?',
+      onConfirm: () => {
+        const updatedHistory = history.filter(item => item.id !== idToDelete);
+        setHistory(updatedHistory);
+        localStorage.setItem('lagos_rent_history', JSON.stringify(updatedHistory));
+        if (activeResult && updatedHistory.length === 0) {
+          setActiveResult(null); setFormData(INITIAL_FORM_STATE);
+        }
+        closeModal();
+      }
+    });
   };
 
   const handleHistorySelect = (item) => {
-    if (!item.fullFormData) { alert("Old record cannot be restored."); return; }
+    if (!item.fullFormData) {
+      setModal({
+        isOpen: true,
+        type: 'alert',
+        title: 'Incomplete Record',
+        message: 'This is an older history record that cannot be fully restored. Please generate a new estimate.',
+        onConfirm: closeModal
+      });
+      return; 
+    }
     setFormData(item.fullFormData); setActiveResult(item.fullResult);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -102,15 +142,16 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col relative">
       <Navbar isDarkMode={isDarkMode} toggleTheme={() => setIsDarkMode(!isDarkMode)} />
 
       <main className="grow w-full px-4 sm:px-6 md:px-8 py-8 mx-auto flex flex-col">
         <header className="mb-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 animate-fade-up">
           <div>
-            {/* Replaced font-rye with font-spicy */}
             <h1 className="text-4xl font-spicy mb-1 text-brand-dark dark:text-white">Property Rent Estimator</h1>
-            <p className="opacity-80 text-lg text-brand-dark dark:text-gray-300">Select your location and property features to get an AI-powered estimate.</p>
+            <p className="opacity-80 text-lg text-brand-dark dark:text-gray-300">
+              Select your location and property features to get an AI-powered estimate. <span className="italic text-brand-accent font-medium">See footer for disclaimer.</span>
+            </p>
           </div>
           <button onClick={handleReset} className="px-4 py-2 border border-brand-accent text-brand-accent hover:bg-brand-accent hover:text-white rounded-md transition-colors font-semibold text-sm shadow-sm">
             Reset Session
@@ -125,6 +166,16 @@ export default function App() {
       </main>
 
       <Footer />
+
+      {/* Global Modals overlay here securely */}
+      <ConfirmModal 
+        isOpen={modal.isOpen}
+        type={modal.type}
+        title={modal.title}
+        message={modal.message}
+        onConfirm={modal.onConfirm}
+        onCancel={closeModal}
+      />
     </div>
   );
 }

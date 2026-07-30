@@ -17,7 +17,6 @@ export const LOCATIONS = [
   "Okota",
   "Amuwo",
   "Badagry",
-  "Lagos Other",
 ];
 
 export const FEATURES_LIST = [

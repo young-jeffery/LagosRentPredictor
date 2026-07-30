@@ -1,4 +1,6 @@
+// src/components/EstimatorForm.jsx
 import SearchableSelect from './ui/SearchableSelect';
+import Tooltip from './ui/Tooltip';
 import { LOCATIONS, FEATURES_LIST } from '../constants/appConstants';
 
 export default function EstimatorForm({ formData, setFormData, onSubmit, isLoading, apiError, onClear }) {
@@ -46,26 +48,26 @@ export default function EstimatorForm({ formData, setFormData, onSubmit, isLoadi
       </div>
 
       <div className="mb-6">
-        <h2 className="text-lg font-bold text-brand-dark dark:text-white mb-3 font-spicy">Property Features</h2>
+        <h2 className="text-xl font-bold text-brand-dark dark:text-white mb-3 font-rye">Property Features</h2>
         <div className="flex flex-wrap gap-2.5">
           {FEATURES_LIST.map((feature) => {
             const isActive = formData[feature.id] === 1;
             return (
-              <button
-                key={feature.id}
-                type="button"
-                title={feature.description}
-                disabled={isLoading}
-                onClick={() => toggleFeature(feature.id)}
-                className={`px-3 py-1.5 rounded-md text-sm font-bold transition-all duration-200 border 
-                  ${isActive 
-                    ? 'bg-brand-gray text-brand-bg border-brand-gray shadow-sm dark:bg-white dark:text-brand-gray dark:border-white scale-[1.02]' 
-                    : 'bg-transparent text-brand-gray border-brand-gray/40 hover:bg-white/20 dark:bg-[#1a2530] dark:text-gray-300 dark:border-white/10 dark:hover:border-white/30 dark:hover:bg-[#233140]'}
-                  disabled:opacity-50 disabled:cursor-not-allowed
-                `}
-              >
-                {feature.label}
-              </button>
+              <Tooltip key={feature.id} content={feature.description}>
+                <button
+                  type="button"
+                  disabled={isLoading}
+                  onClick={() => toggleFeature(feature.id)}
+                  className={`px-3 py-1.5 rounded-md text-sm font-bold transition-all duration-200 border 
+                    ${isActive 
+                      ? 'bg-brand-gray text-brand-bg border-brand-gray shadow-sm dark:bg-white dark:text-brand-gray dark:border-white scale-[1.02]' 
+                      : 'bg-transparent text-brand-gray border-brand-gray/40 hover:bg-white/20 dark:bg-[#1a2530] dark:text-gray-300 dark:border-white/10 dark:hover:border-white/30 dark:hover:bg-[#233140]'}
+                    disabled:opacity-50 disabled:cursor-not-allowed
+                  `}
+                >
+                  {feature.label}
+                </button>
+              </Tooltip>
             );
           })}
         </div>
@@ -89,7 +91,7 @@ export default function EstimatorForm({ formData, setFormData, onSubmit, isLoadi
         <button 
           type="submit" 
           disabled={isLoading}
-          className="w-full sm:w-auto px-8 py-2.5 rounded-lg bg-brand-accent hover:bg-brand-accent-hover text-white font-bold text-lg font-spicy shadow-lg transition-all active:scale-[0.98] disabled:opacity-80 disabled:cursor-not-allowed flex justify-center items-center h-[52px] min-w-[200px]"
+          className="w-full sm:w-auto px-8 py-2.5 rounded-lg bg-brand-accent hover:bg-brand-accent-hover text-white font-bold tracking-wider capitalize text-lg font-rye shadow-lg transition-all active:scale-[0.98] disabled:opacity-80 disabled:cursor-not-allowed flex justify-center items-center h-13 min-w-50"
         >
           {isLoading ? (
             <div className="sound-wave">

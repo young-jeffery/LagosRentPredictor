@@ -50,7 +50,7 @@ export default function ResultsDisplay({ result, formData }) {
               <p className="text-xs font-bold uppercase opacity-70 mb-1 text-brand-dark dark:text-gray-300">{item.label}</p>
               <p className="text-xl font-spicy text-brand-dark dark:text-white mb-1">{formatNaira(item.value)}</p>
               
-              <div className="text-[11px] font-semibold text-brand-accent pt-2 border-t border-brand-gray/10 dark:border-white/10">
+              <div className="text-lg font-semibold text-brand-accent pt-2 border-t border-brand-gray/10 dark:border-white/10">
                 Range: {formatNaira(item.itemLower)} - {formatNaira(item.itemUpper)}
               </div>
             </div>
@@ -61,7 +61,7 @@ export default function ResultsDisplay({ result, formData }) {
           <h4 className="text-sm font-bold uppercase mb-3 text-brand-dark dark:text-white">Included Features</h4>
           <div className="flex flex-wrap gap-2">
             {selectedFeatures.length > 0 ? selectedFeatures.map(f => (
-              <span key={f.id} className="text-xs font-semibold px-3 py-1 rounded-md bg-white/20 dark:bg-black/40 text-brand-dark dark:text-white border border-brand-gray/20 dark:border-white/5">
+              <span key={f.id} className="text-sm font-semibold px-3 py-1 rounded-md bg-white/20 dark:bg-black/40 text-brand-dark dark:text-white border border-brand-gray/20 dark:border-white/5">
                 {f.label}
               </span>
             )) : (

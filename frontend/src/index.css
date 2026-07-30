@@ -4,26 +4,27 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --bg-primary: #E2E2D2;
-  --text-main: #141D26;
-  --pattern-color: rgba(20, 29, 38, 0.15); 
+  --bg-primary: #e2e2d2;
+  --text-main: #141d26;
+  --pattern-color: rgba(20, 29, 38, 0.15);
 }
 
 .dark {
   --bg-primary: #0b1116;
-  --text-main: #f0f0f0; 
-  --pattern-color: rgba(226, 226, 210, 0.12); 
+  --text-main: #f0f0f0;
+  --pattern-color: rgba(226, 226, 210, 0.12);
 }
 
 @theme {
   --color-brand-bg: var(--bg-primary);
   --color-brand-dark: var(--text-main);
   --color-brand-gray: #243447;
-  --color-brand-accent: #C51F5D;
-  --color-brand-accent-hover: #a6174d; 
+  --color-brand-accent: #c51f5d;
+  --color-brand-accent-hover: #a6174d;
   --font-tangerine: "Tangerine", cursive;
   --font-bonheur: "Bonheur Royale", cursive;
-  --font-spicy: "Spicy Rice", serif; /* Rye replaced with Spicy Rice */
+  --font-spicy: "Spicy Rice", serif;
+  --font-rye: "Rye", serif;
   --font-luxurious: "Luxurious Roman", serif;
 }
 
@@ -32,25 +33,98 @@
     background-color: var(--color-brand-bg);
     color: var(--color-brand-dark);
     font-family: var(--font-luxurious), serif;
-    background-image: radial-gradient(var(--pattern-color) 1.5px, transparent 1.5px);
+    background-image: radial-gradient(
+      var(--pattern-color) 1.5px,
+      transparent 1.5px
+    );
     background-size: 24px 24px;
     background-attachment: fixed;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
     scrollbar-width: none;
     -ms-overflow-style: none;
   }
-  body::-webkit-scrollbar { display: none; }
+  body::-webkit-scrollbar {
+    display: none;
+  }
 }
 
-@keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
-@keyframes scaleIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
-.animate-fade-up { opacity: 0; animation: fadeInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
-.animate-scale-in { opacity: 0; animation: scaleIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
-.delay-100 { animation-delay: 100ms; } .delay-200 { animation-delay: 200ms; } .delay-300 { animation-delay: 300ms; } .delay-400 { animation-delay: 400ms; }
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.animate-fade-up {
+  opacity: 0;
+  animation: fadeInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.animate-scale-in {
+  opacity: 0;
+  animation: scaleIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.delay-100 {
+  animation-delay: 100ms;
+}
+.delay-200 {
+  animation-delay: 200ms;
+}
+.delay-300 {
+  animation-delay: 300ms;
+}
+.delay-400 {
+  animation-delay: 400ms;
+}
 
-.sound-wave { display: flex; align-items: center; gap: 4px; height: 20px; }
-.sound-wave .bar { width: 3px; height: 100%; background-color: white; animation: wave 1s ease-in-out infinite; border-radius: 2px; }
-.sound-wave .bar:nth-child(1) { animation-delay: 0.0s; } .sound-wave .bar:nth-child(2) { animation-delay: 0.2s; }
-.sound-wave .bar:nth-child(3) { animation-delay: 0.4s; } .sound-wave .bar:nth-child(4) { animation-delay: 0.6s; }
-.sound-wave .bar:nth-child(5) { animation-delay: 0.8s; }
-@keyframes wave { 0%, 100% { transform: scaleY(0.3); } 50% { transform: scaleY(1); } }
+.sound-wave {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 20px;
+}
+.sound-wave .bar {
+  width: 3px;
+  height: 100%;
+  background-color: white;
+  animation: wave 1s ease-in-out infinite;
+  border-radius: 2px;
+}
+.sound-wave .bar:nth-child(1) {
+  animation-delay: 0s;
+}
+.sound-wave .bar:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.sound-wave .bar:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.sound-wave .bar:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.sound-wave .bar:nth-child(5) {
+  animation-delay: 0.8s;
+}
+@keyframes wave {
+  0%,
+  100% {
+    transform: scaleY(0.3);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
