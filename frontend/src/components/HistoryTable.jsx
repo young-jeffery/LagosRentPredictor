@@ -18,6 +18,11 @@ export default function HistoryTable({ history = [], onSelect, onDelete }) {
     }).format(new Date(isoString));
   };
 
+  // [ADDED] v3 -- entries saved before Property_Type existed won't have
+  // `propertyType` on the record, so fall back to fullFormData if present,
+  // else show a plain dash rather than "undefined".
+  const getPropertyType = (item) => item.propertyType || item.fullFormData?.Property_Type || '—';
+
   return (
     <section aria-label="Recent Estimates" className="border-t border-brand-gray/20 dark:border-white/10 bg-transparent">
       <div className="px-8 py-6 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-2 border-b border-brand-gray/20 dark:border-white/5">
@@ -37,6 +42,7 @@ export default function HistoryTable({ history = [], onSelect, onDelete }) {
           <thead>
             <tr className="text-xs uppercase tracking-wider bg-transparent dark:bg-white/5 text-brand-dark dark:text-gray-300 border-b border-brand-gray/20 dark:border-transparent">
               <th className="px-8 py-4 font-bold">Location</th>
+              <th className="px-8 py-4 font-bold">Type</th>
               <th className="px-8 py-4 font-bold">Size</th>
               <th className="px-8 py-4 font-bold">Est. Rent (TCT)</th>
               <th className="px-8 py-4 font-bold">Date</th>
@@ -48,6 +54,9 @@ export default function HistoryTable({ history = [], onSelect, onDelete }) {
               <tr key={item.id} className="transition-colors group hover:bg-white/30 dark:hover:bg-white/5 text-brand-dark dark:text-white">
                 <td onClick={() => onSelect(item)} className="px-8 py-5 font-bold cursor-pointer group-hover:text-brand-accent transition-colors">
                   {item.location}
+                </td>
+                <td onClick={() => onSelect(item)} className="px-8 py-5 font-medium cursor-pointer">
+                  {getPropertyType(item)}
                 </td>
                 <td onClick={() => onSelect(item)} className="px-8 py-5 font-medium cursor-pointer">
                   {item.beds} Bed, {item.baths} Bath

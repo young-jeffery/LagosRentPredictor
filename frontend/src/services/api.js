@@ -20,3 +20,14 @@ export const estimateRentPrice = async (payload) => {
         throw new Error(errorMessage, { cause: error });
     }
 };
+
+// [ADDED] Budget-based recommender
+export const getRecommendations = async (payload) => {
+    try {
+        const response = await apiClient.post('/recommend', payload);
+        return response.data;
+    } catch (error) {
+        const errorMessage = error.response?.data?.detail || 'Failed to connect to the recommendation server. Please try again.';
+        throw new Error(errorMessage, { cause: error });
+    }
+};

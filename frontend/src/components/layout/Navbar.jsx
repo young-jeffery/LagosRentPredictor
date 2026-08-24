@@ -9,11 +9,11 @@ export default function Navbar({ isDarkMode, toggleTheme }) {
           </div>
 
           <div className="flex-1 flex justify-center items-center space-x-3">
-            <div className="w-8 h-8 rounded bg-brand-accent flex items-center justify-center font-rye text-white shadow-md">
-              LR
+            <div className="w-10 h-8 rounded bg-brand-accent flex items-center justify-center font-rye text-white shadow-md">
+              LRR
             </div>
             <span className="font-rye font-bold uppercase text-xl tracking-wide hidden sm:block whitespace-nowrap text-brand-dark dark:text-white">
-              Lagos Rental Price Estimator
+              Lagos Residential Rent Estimator
             </span>
           </div>
 

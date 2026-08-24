@@ -1,22 +1,27 @@
 // src/constants/appConstants.js
 
-export const LOCATIONS = [
-  "Lekki",
-  "Ajah",
-  "VI",
-  "Ikoyi",
-  "Ikeja",
-  "Maryland",
-  "Ojodu",
-  "Gbagada",
-  "Yaba",
-  "Surulere",
-  "Isolo",
-  "Ikorodu",
-  "Alimosho",
-  "Okota",
-  "Amuwo",
-  "Badagry",
+// [MODIFIED] Old flat 16-district LOCATIONS array replaced. Now
+// re-exporting the full 335-entry sub-location dictionary from its own
+// file, since it's generated data and shouldn't live inline here.
+// [ADDED] Re-exporting the derived districts list alongside the sub-locations
+export { LAGOS_LOCATIONS, LAGOS_DISTRICTS } from './lagosLocations';
+
+// [ADDED] v3 -- the exact 12 categories property_type_classifier.py
+// produces. Must match schemas.py's PROPERTY_TYPES list exactly, since
+// this string gets sent straight to the backend and looked up by name.
+export const PROPERTY_TYPES = [
+  "Flat/Apartment",
+  "Mini flat",
+  "Self-contain",
+  "Studio",
+  "Duplex",
+  "Terrace",
+  "Semi-detached",
+  "Detached",
+  "Bungalow",
+  "Block of flats",
+  "Maisonette",
+  "Penthouse",
 ];
 
 export const FEATURES_LIST = [
@@ -155,5 +160,26 @@ export const FEATURES_LIST = [
     id: "prefers_working_class",
     label: "Working Class Preferred",
     description: "Landlord strictly prefers renting to working professionals.",
+  },
+  // [ADDED] New amenities found via keyword_discovery.py
+  {
+    id: "has_jacuzzi",
+    label: "Jacuzzi",
+    description: "Property includes a jacuzzi.",
+  },
+  {
+    id: "is_premium_marketed",
+    label: "Premium/Luxury Listing",
+    description: "Listing is marketed using premium or luxury language.",
+  },
+  {
+    id: "is_urgent_listing",
+    label: "Urgent/First-Come-First-Served",
+    description: "Listing is marketed as urgent or fastest-finger-first.",
+  },
+  {
+    id: "is_standalone_fenced",
+    label: "Standalone Fenced Compound",
+    description: "A fenced standalone compound, as opposed to a gated estate.",
   },
 ];

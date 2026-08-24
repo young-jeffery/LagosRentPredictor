@@ -4,86 +4,97 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 import joblib
 
-# Importing my custom modules
-from schemas import PropertyInput, PredictionOutput, TCTBreakdown
-from ml_core import execute_prediction
+from schemas import PropertyInput, PredictionOutput, TCTBreakdown, RecommendationInput, RecommendationOutput
+from ml_core import execute_prediction, generate_recommendations
+from location_dictionary import load_location_dictionary
+from ml_core import execute_prediction, generate_recommendations, compute_negotiation_range
 
-# I am creating a global dictionary to hold my heavy machine learning models in active memory
 ml_models = {}
 
-# I am using an asynchronous lifespan context manager. This ensures my server loads the heavy 
-# .pkl files into memory BEFORE it starts accepting HTTP requests, preventing crashes.
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup: Load the files
     try:
         print("Loading Machine Learning artifacts into memory...")
-        ml_models["preprocessor"] = joblib.load("feature_preprocessor.pkl")
-        ml_models["xgboost"] = joblib.load("xgb_tuned_model.pkl")
+        ml_models["location_encoding"] = joblib.load("location_encoding_map_v3.pkl")
+        ml_models["property_type_encoding"] = joblib.load("property_type_encoding_map_v3.pkl")
+        ml_models["xgboost"] = joblib.load("xgb_tuned_model_v3.pkl")
+        ml_models["negotiation_interval"] = joblib.load("negotiation_interval_map_v1.pkl")
+        # [ADDED] Full 335-location candidate space for the recommender.
+        ml_models["all_locations"] = load_location_dictionary("Cleaned_Lagos_Dictionary.txt")
+        print(f"Loaded {len(ml_models['all_locations'])} locations for recommender.")
         print("Models successfully loaded. Server is ready.")
     except Exception as e:
         print(f"CRITICAL ERROR: Failed to load ML files. {e}")
-        
-    yield # The server runs and handles traffic here
-    
-    # Shutdown: Clear the memory safely when the server is stopped
+
+    yield
+
     ml_models.clear()
     print("Memory cleared. Server shutting down.")
 
-# Initializing the FastAPI application with my lifespan manager
 app = FastAPI(
     title="Lagos Rent Predictor API",
     description="Backend AI engine for residential TCT valuation",
     lifespan=lifespan
 )
 
-# I am configuring CORS so my React frontend (which will run on a different port like localhost:3000) 
-# is mathematically allowed to communicate with this backend.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # I will lock this down to my specific frontend URL later for security
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Creating the core POST endpoint that the React app will call
 @app.post("/predict", response_model=PredictionOutput)
 async def predict_rent(property_details: PropertyInput):
-    # First, I need to ensure the models are actually loaded in memory
-    if "xgboost" not in ml_models or "preprocessor" not in ml_models:
+    if "xgboost" not in ml_models or "location_encoding" not in ml_models or "property_type_encoding" not in ml_models or "negotiation_interval" not in ml_models:
         raise HTTPException(status_code=503, detail="Machine Learning models are not loaded.")
-    
+
     try:
-        # 1. Execute the raw prediction using my ml_core logic
         tct_estimate = execute_prediction(
             model=ml_models["xgboost"],
-            preprocessor=ml_models["preprocessor"],
+            location_encoding_map=ml_models["location_encoding"],
+            property_type_encoding_map=ml_models["property_type_encoding"],
             input_data=property_details
         )
-        
-        # 2. Implement the Negotiation Range (±15% buffer)
-        # This protects the model's credibility and gives users a realistic market window
-        negotiation_lower = tct_estimate * 0.85
-        negotiation_upper = tct_estimate * 1.15
-        
-        # 3. Reverse-engineer the TCT Breakdown based on standard Lagos market percentages
-        # Standard assumption: Base rent is ~70%, while Agency, Legal, and Caution are ~10% each.
+
+        negotiation_lower, negotiation_upper = compute_negotiation_range(
+            tct_estimate, ml_models["negotiation_interval"]
+        )
+
         breakdown = TCTBreakdown(
             base_rent=tct_estimate * 0.70,
             agency_fee=tct_estimate * 0.10,
             legal_fee=tct_estimate * 0.10,
             caution_deposit=tct_estimate * 0.10
         )
-        
-        # 4. Construct and return the final JSON payload
+
         return PredictionOutput(
             estimated_tct=tct_estimate,
             negotiation_lower=negotiation_lower,
             negotiation_upper=negotiation_upper,
             breakdown=breakdown
         )
-        
+
     except Exception as e:
-        # If anything breaks during the math, I return a clean 500 error to the frontend
         raise HTTPException(status_code=500, detail=f"Prediction failed: {str(e)}")
+
+
+# [ADDED] Budget-based recommender endpoint
+@app.post("/recommend", response_model=RecommendationOutput)
+async def recommend_properties(criteria: RecommendationInput):
+    if "xgboost" not in ml_models or "location_encoding" not in ml_models or "property_type_encoding" not in ml_models:
+        raise HTTPException(status_code=503, detail="Machine Learning models are not loaded.")
+
+    try:
+        result = generate_recommendations(
+            model=ml_models["xgboost"],
+            location_encoding_map=ml_models["location_encoding"],
+            property_type_encoding_map=ml_models["property_type_encoding"],
+            all_locations=ml_models["all_locations"],
+            request=criteria
+        )
+        return result
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Recommendation failed: {str(e)}")

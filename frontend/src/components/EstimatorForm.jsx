@@ -1,12 +1,36 @@
 // src/components/EstimatorForm.jsx
 import SearchableSelect from './ui/SearchableSelect';
 import Tooltip from './ui/Tooltip';
-import { LOCATIONS, FEATURES_LIST } from '../constants/appConstants';
+import { LAGOS_DISTRICTS, LAGOS_LOCATIONS, FEATURES_LIST, PROPERTY_TYPES } from '../constants/appConstants';
+// [ADDED] Property-type-aware bed/bath bounds
+import { getBedBathConfig, clamp } from '../constants/propertyTypeConstraints';
+
+const PROPERTY_TYPE_OPTIONS = PROPERTY_TYPES.map(type => ({ label: type, value: type }));
 
 export default function EstimatorForm({ formData, setFormData, onSubmit, isLoading, apiError, onClear }) {
+  // [ADDED] Bounds for whatever Property_Type is currently selected
+  const bedBathConfig = getBedBathConfig(formData.Property_Type);
+  const bedsFixed = bedBathConfig.bedMin === bedBathConfig.bedMax;
+  const bathsFixed = bedBathConfig.bathMin === bedBathConfig.bathMax;
+
   const handleNumberChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: Number(value) }));
+  };
+
+  // [ADDED] Clamps current Bedrooms/Bathrooms into the new type's valid
+  // range whenever Property_Type changes -- e.g. switching from Flat/
+  // Apartment (6 beds) to Studio auto-corrects to 1 rather than letting an
+  // invalid combination sit in the form until submission fails.
+  const handlePropertyTypeChange = (selected) => {
+    const newType = selected.value;
+    const config = getBedBathConfig(newType);
+    setFormData(p => ({
+      ...p,
+      Property_Type: newType,
+      Bedrooms: clamp(p.Bedrooms, config.bedMin, config.bedMax),
+      Bathrooms: clamp(p.Bathrooms, config.bathMin, config.bathMax),
+    }));
   };
 
   const toggleFeature = (featureId) => {
@@ -15,37 +39,77 @@ export default function EstimatorForm({ formData, setFormData, onSubmit, isLoadi
 
   return (
     <form onSubmit={onSubmit} className="p-6 sm:p-8">
-      <div className="max-w-4xl grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
-        <div className="md:col-span-2">
+      <div className="max-w-4xl flex flex-col md:flex-row gap-6 mb-2 items-start">
+        <div className="w-full md:flex-1">
           <label className="block text-sm font-semibold uppercase text-brand-dark dark:text-white mb-1.5 opacity-80">Location</label>
-          <SearchableSelect 
-            options={LOCATIONS}
-            value={formData.Consolidated_Location}
-            onChange={(val) => setFormData(p => ({ ...p, Consolidated_Location: val }))}
-            placeholder="Select district..."
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <SearchableSelect
+              options={LAGOS_DISTRICTS}
+              value={formData.Main_District ? { label: formData.Main_District } : null}
+              onChange={(selected) => setFormData(p => ({
+                ...p,
+                Main_District: selected.district,
+                Official_Sub_Location: ''
+              }))}
+              placeholder="Select district..."
+            />
+
+            <SearchableSelect
+              options={
+                formData.Main_District
+                  ? LAGOS_LOCATIONS
+                      .filter(loc => loc.district === formData.Main_District)
+                      .map(loc => ({ label: loc.subLocation, subLocation: loc.subLocation, district: loc.district }))
+                  : []
+              }
+              value={formData.Official_Sub_Location ? { label: formData.Official_Sub_Location } : null}
+              onChange={(selected) => setFormData(p => ({
+                ...p,
+                Official_Sub_Location: selected.subLocation
+              }))}
+              placeholder={formData.Main_District ? "Select sub-location..." : "Select a district first"}
+            />
+          </div>
+        </div>
+
+        <div className="w-full md:w-56 shrink-0">
+          <label className="block text-sm font-semibold uppercase text-brand-dark dark:text-white mb-1.5 opacity-80">Property Type</label>
+          <SearchableSelect
+            options={PROPERTY_TYPE_OPTIONS}
+            value={formData.Property_Type ? { label: formData.Property_Type } : null}
+            onChange={handlePropertyTypeChange}
+            placeholder="Select property type..."
           />
         </div>
         
-        <div className="md:col-span-1">
-          <label className="block text-sm font-semibold uppercase text-brand-dark dark:text-white mb-1.5 opacity-80">Bedrooms</label>
+        <div className="w-20 shrink-0">
+          <label className="block text-sm font-semibold uppercase text-brand-dark dark:text-white mb-1.5 opacity-80">Beds</label>
           <input 
-            type="number" name="Bedrooms" min="1" max="10"
+            type="number" name="Bedrooms"
+            min={bedBathConfig.bedMin} max={bedBathConfig.bedMax}
             value={formData.Bedrooms} onChange={handleNumberChange}
-            disabled={isLoading}
-            className="w-full font-spicy text-lg border border-brand-gray/30 dark:border-white/20 rounded-md p-2 focus:ring-2 focus:ring-brand-accent outline-none bg-white/20 dark:bg-black/20 text-brand-dark dark:text-white disabled:opacity-50 transition-colors"
+            disabled={isLoading || bedsFixed}
+            className="w-full font-spicy text-center text-lg border border-brand-gray/30 dark:border-white/20 rounded-md p-2 focus:ring-2 focus:ring-brand-accent outline-none bg-white/20 dark:bg-black/20 text-brand-dark dark:text-white disabled:opacity-60 transition-colors"
           />
         </div>
 
-        <div className="md:col-span-1">
-          <label className="block text-sm font-semibold uppercase text-brand-dark dark:text-white mb-1.5 opacity-80">Bathrooms</label>
+        <div className="w-20 shrink-0">
+          <label className="block text-sm font-semibold uppercase text-brand-dark dark:text-white mb-1.5 opacity-80">Baths</label>
           <input 
-            type="number" name="Bathrooms" min="1" max="10"
+            type="number" name="Bathrooms"
+            min={bedBathConfig.bathMin} max={bedBathConfig.bathMax}
             value={formData.Bathrooms} onChange={handleNumberChange}
-            disabled={isLoading}
-            className="w-full font-spicy text-lg border border-brand-gray/30 dark:border-white/20 rounded-md p-2 focus:ring-2 focus:ring-brand-accent outline-none bg-white/20 dark:bg-black/20 text-brand-dark dark:text-white disabled:opacity-50 transition-colors"
+            disabled={isLoading || bathsFixed}
+            className="w-full font-spicy text-center text-lg border border-brand-gray/30 dark:border-white/20 rounded-md p-2 focus:ring-2 focus:ring-brand-accent outline-none bg-white/20 dark:bg-black/20 text-brand-dark dark:text-white disabled:opacity-60 transition-colors"
           />
         </div>
       </div>
+
+      {/* [ADDED] Explanatory note for property types with fixed or unusual bed/bath rules */}
+      {bedBathConfig.note && (
+        <p className="text-xs italic opacity-70 mb-6 text-brand-dark dark:text-gray-300">{bedBathConfig.note}</p>
+      )}
+      {!bedBathConfig.note && <div className="mb-8" />}
 
       <div className="mb-6">
         <h2 className="text-xl font-bold text-brand-dark dark:text-white mb-3 font-rye">Property Features</h2>

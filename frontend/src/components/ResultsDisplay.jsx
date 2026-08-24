@@ -2,7 +2,7 @@ import { formatNaira, getApproximatedRanges, getBreakdownRange } from '../utils/
 import { FEATURES_LIST } from '../constants/appConstants';
 
 export default function ResultsDisplay({ result, formData }) {
-  if (!result) return null;
+  if (!result || !formData) return null;
 
   const { estimated_tct, negotiation_lower, negotiation_upper, breakdown } = result;
   const selectedFeatures = FEATURES_LIST.filter(f => formData[f.id] === 1);
@@ -24,8 +24,9 @@ export default function ResultsDisplay({ result, formData }) {
           <h2 className="text-sm font-bold uppercase tracking-widest text-gray-400 mb-2">
             Estimated Total Cost to Tenant
           </h2>
+          {/* [MODIFIED] v3 -- Property_Type prefixed onto the summary line */}
           <p className="text-brand-accent font-spicy text-lg mb-4">
-            {formData.Bedrooms} Bed, {formData.Bathrooms} Bath in {formData.Consolidated_Location}
+            {formData.Property_Type} &bull; {formData.Bedrooms} Bed, {formData.Bathrooms} Bath in {formData.Official_Sub_Location}, {formData.Main_District}
           </p>
           <div className="text-5xl lg:text-6xl font-spicy mb-6 text-white drop-shadow-md">
             {formatNaira(estimated_tct)}
