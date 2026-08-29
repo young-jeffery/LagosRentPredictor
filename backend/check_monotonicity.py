@@ -16,8 +16,8 @@ X_TEST_PATH = 'X_test_v3.csv'
 N_SAMPLE_ROWS = 30          # how many real rows to use as base cases
 BEDROOM_RANGE = range(1, 11)
 BATHROOM_RANGE = range(1, 7)
-CAPPED_MAX_BED = 10
-CAPPED_MAX_BATH = 10
+CAPPED_MAX_BED = 6
+CAPPED_MAX_BATH = 6
 RANDOM_STATE = 42
 
 def sweep_feature(model, base_row, feature_name, value_range, feature_cols):
