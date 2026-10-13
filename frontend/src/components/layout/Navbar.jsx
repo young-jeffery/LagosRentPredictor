@@ -5,13 +5,17 @@ export default function Navbar({ isDarkMode, toggleTheme }) {
         <div className="flex justify-between h-16 items-center">
           
           <div className="flex-1 flex justify-start">
-            <span className="text-sm font-spicy text-brand-accent">Matric: 190805101</span>
+            <span className="text-sm font-spicy text-brand-accent">Final Year Project</span>
           </div>
 
           <div className="flex-1 flex justify-center items-center space-x-3">
-            <div className="w-10 h-8 rounded bg-brand-accent flex items-center justify-center font-rye text-white shadow-md">
+            <a
+              href="/index.html"
+              aria-label="Go to home page"
+              className="w-10 h-8 rounded bg-brand-accent flex items-center justify-center font-rye text-white shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-accent"
+            >
               LRR
-            </div>
+            </a>
             <span className="font-rye font-bold uppercase text-xl tracking-wide hidden sm:block whitespace-nowrap text-brand-dark dark:text-white">
               Lagos Residential Rent Estimator
             </span>
