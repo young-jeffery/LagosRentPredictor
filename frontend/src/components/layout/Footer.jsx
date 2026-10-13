@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-8 lg:gap-12 items-center lg:items-stretch text-center lg:text-left">
         <div className="lg:w-2/5 flex flex-col justify-center space-y-3">
           <h3 className="font-spicy text-xl sm:text-2xl text-brand-dark dark:text-white uppercase tracking-wide">
-            Development of an AI-Powered Web Application for Transparent Residential Rent Valuation in the Lagos Property Market
+            Bias-Corrected Machine Learning for Rent Prediction in Informally Priced Housing Markets: A Web-Deployed Case Study from Lagos, Nigeria
           </h3>
           <div className="pt-2">
             <p className="font-bold text-brand-accent text-lg">By: Idowu Mayowa Joseph</p>
