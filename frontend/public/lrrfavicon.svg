@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Rounded base plate: deep green tone -->
+  <rect width="64" height="64" rx="14" fill="#064E3B"/>
+
+  <!-- Minimalist roofline cap -->
+  <path d="M14 28 L32 14 L50 28" fill="none" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upward price estimation trend line -->
+  <path d="M20 46 L30 36 L38 42 L48 26" fill="none" stroke="#34D399" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Endpoint data prediction node -->
+  <circle cx="48" cy="26" r="4.5" fill="#F8FAFC"/>
+  <circle cx="48" cy="26" r="2.5" fill="#064E3B"/>
+
+  <!-- Lower foundation guide -->
+  <path d="M22 50 H42" stroke="#A7F3D0" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
