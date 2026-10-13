@@ -149,8 +149,8 @@ if __name__ == "__main__":
 
 # # tuned_rf_v3.py -- Random Forest on v3 feature set (+ Property_Type)
 # # Same search budget (60 iter, 5-fold CV) as tuned_xgboost_v3.py, for a
-# # fair comparison. Note: RF has no monotone_constraints equivalent in
-# # sklearn, so this is RF on the v3 features WITHOUT any bedroom/bathroom
+# # fair comparison. Note: RF has no monotone_constraints enabled here,
+# # so this is RF on the v3 features WITHOUT any bedroom/bathroom
 # # constraint -- comparing "best RF can do on this feature set" against
 # # XGBoost's constrained result. Not apples-to-apples on the constraint,
 # # but still tells you whether RF's algorithm-level ceiling on this richer

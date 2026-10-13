@@ -44,6 +44,18 @@ export const getApproximatedRanges = (lower, upper) => {
     };
 };
 
+// Round the single point estimate using the same dynamic step logic
+export const getApproximatedTct = (value) => {
+    const step = getRoundingStep(value);
+    return Math.round(value / step) * step;
+};
+
+// Round a single breakdown line item for display (same step logic as TCT/ranges)
+export const getApproximatedBreakdownValue = (value) => {
+    const step = getRoundingStep(value);
+    return Math.round(value / step) * step;
+};
+
 // Calculate proportional sub-ranges for the breakdown items
 export const getBreakdownRange = (itemValue, originalTct, approxLower, approxUpper) => {
     const weight = itemValue / originalTct;
